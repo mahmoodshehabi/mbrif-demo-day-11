@@ -1,0 +1,1130 @@
+
+
+-- 1 of 22 --
+
+About MBRIF
+The Mohammed Bin Rashid Innovation Fund (MBRIF) is a
+federal initiative launched by the UAE Ministry of Finance
+(MoF). The initiative seeks to identify and nurture high-
+potential innovations both within the UAE and abroad. It aims
+to enhance the growth potential of businesses and shape the
+future of the UAE’s economy.
+MBRIF focuses on the seven sectors outlined in the UAE
+National Innovation Strategy: Space, Transport, Education,
+Technology, Water, Clean Energy, and Health.
+Please see below for more information on the members
+presenting.
+
+-- 2 of 22 --
+
+REVENUE GENERATING
+Yes
+CLOSED FUNDING ROUNDS
+Yes
+INDUSTRY
+Technology
+STAGE
+Seed
+PROBLEM	SOLUTION
+VALUE PROPOSITION
+Akeltech is a fully integrated smart food platform delivering fresh, high-quality meals anywhere, anytime
+through AI-powered vending systems combining in-house food production, proprietary machine manufacturing,
+and intelligent operations.
+Eliminates labor dependency and operational complexity through automated, end-to-end food retail
+infrastructure.
+Ensures consistent quality and cost efficiency by controlling the entire value chain—from production to
+point-of-sale.
+Enables partners to deploy scalable, 24/7 food outlets in minimal space with zero on-ground management.
+Co-Founder and CEO
+LinkedIn
+Abdel Jawhar
+Access to fresh, affordable meals is constrained by
+inefficient food service models that depend on
+high labor, complex logistics, and limited
+availability, resulting in higher costs and poor
+scalability.
+A network of smart vending machines delivering
+fresh, hot, and cold meals, powered by a vertically
+integrated system combining hardware, software,
+and food production to ensure efficiency,
+consistency, and cost optimization.
+Co-Founder and CTO
+LinkedIn
+Hadi BoustaniCo-Founder
+LinkedIn
+Omar Zanhour
+CAPITAL RAISED TO DATE
+AkelTech
+BUSINESS MODEL
+AkelTech.com
+$1,500,000 USD
+TRACTION
+Design and manufacture proprietary vending machines, deployed and operated directly by Akeltech using its
+own central kitchen (full-stack, vertically integrated model)
+Generate revenue from direct food sales through company-operated machines in high-traffic locations
+Sell machines to partners under a licensing model, enabling them to operate using Akeltech’s system
+Earn recurring revenue through software subscriptions, maintenance contracts, and ongoing technical support
+Expansion, Manufacturing & Deployment (80%)
+Hiring & Marketing (20%)
+$2,500,000 USD
+CURRENT ASK
+$70,000	
+130,00 	15%	16
+FOODS SOLD	GROWTH RATE	MONTHLY REVENUE	MACHINES SOLD
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+
+-- 3 of 22 --
+
+REVENUE GENERATING
+Yes
+CLOSED FUNDING ROUNDS
+Yes
+INDUSTRY
+Technology
+STAGE
+Seed
+Co-Founder
+LinkedIn
+Bhuvan Batra
+Co-Founder and CTO
+LinkedIn
+Harsh Ajmera
+Co-Founder and CPO
+LinkedIn
+Faheem Naser
+VALUE PROPOSITION
+PROBLEM	SOLUTION
+Bellboy is a voice AI platform that enhances the hospitality experience by automating guest interactions and
+bookings through 24/7 multilingual support.
+Provides 24/7 voice-based guest support in 60+ languages, improving accessibility and guest experience
+Automates booking and inquiry handling, reducing reliance on front-desk staff and lowering operational costs
+Seamlessly integrates with existing hotel management systems, enabling quick adoption without disrupting
+operations
+Enhances operational efficiency by handling high volumes of guest requests in real time
+Hospitality operations remain heavily reliant on
+manual, staff-dependent processes, limiting the
+ability to provide consistent support, resulting
+in missed bookings, increased operational costs,
+and inconsistent guest experiences
+Bellboy provides a voice AI platform that
+automates guest interactions and bookings through
+24/7 multilingual support, enabling hotels to deliver
+consistent service, reduce operational costs, and
+scale guest engagement.
+CAPITAL RAISED TO DATE
+Bellboy
+BUSINESS MODEL
+bellboytech.com
+$500K USD
+TRACTION
+Subscription-based pricing with a one-time implementation fee; offers custom tiers and pay-per-use
+options.
+Currently serves 12 hotels.
+Hiring (35%)
+Product Development / Tech (30%)
+Marketing (20%)
+Legal (5%)
+Miscellaneous (10%)
+$1.5M USD
+CURRENT ASK
+12000 	8 	45% 	$50K
+USERS	GROWTH RATE	MONTHLY REVENUE	TAQADAM GRANT
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+
+-- 4 of 22 --
+
+REVENUE GENERATING
+No
+CLOSED FUNDING ROUNDS
+Yes
+INDUSTRY
+Health
+STAGE
+Pre-seed
+Co-Founder & CEO
+LinkedIn
+Louis-Philippe Noël
+BioTwin is a patient-centric virtual twin platform that builds a longitudinal biological profile for each patient using
+dried blood spot sampling and untargeted metabolomics -- enabling early detection, continuous monitoring, and
+multi-condition clinical decision support.
+Reduces diagnostic uncertainty through a provenance-auditable decision-support layer in clinical workflows.
+Empowers individuals through TwinMe, a personal virtual twin that monitors biological changes longitudinally
+and flags early warning signals across 15 conditions
+Connects patients and providers on a shared data layer, driving faster decisions and better outcomes.
+PROBLEM
+CAPITAL RAISED TO DATE
+BIOTWIN
+BUSINESS MODEL
+Today’s healthcare system is built to react, not
+predict. Diseases are often identified at late stages,
+driving costs up by 3 to 6 times, while up to 20% of
+high-risk patients go undetected
+SOLUTION
+Biotwin integrates biological and clinical data to
+create dynamic digital twins that continuously
+monitor patient health, detect early changes, and
+generate predictive, actionable insights for
+clinician
+biotwin.com
+Book a Meeting
+~$6.5M USD
+16	
+3879	65,000+	3
+USERS	ANALYSES
+TRACTION
+Product & Platform (40%)
+Clinical & Regulatory (25%)
+Operations & Lab (20%)
+Commercial Launch (15%)
+Pre-revenue, currently in regulatory approval; first revenues expected in the UAE in 2026
+B2B2C SaaS model targeting hospitals, clinics, and payers
+B2C freemium model through TwinMe® for consumer health monitoring
+Currently in validation stage in the UAE, with pilot programs at Cleveland Clinic Abu Dhabi and Al Jalila
+Children’s Hospital
+Angel Investors: ~USD 2.5M
+Grants & Non-Dilutive Funding: ~USD 4.0M
+$2,000,000 USD
+CURRENT ASK
+RESEARCH
+PROJECTSPATENTS PENDING
+CLICK HERE
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+VALUE PROPOSITION
+
+-- 5 of 22 --
+
+REVENUE GENERATING
+Yes
+CLOSED FUNDING ROUNDS
+No
+INDUSTRY
+Fintech -LegalTech
+STAGE
+Pre-seed
+Co-Founder
+LinkedIn
+Marco Banfi
+Co-Founder
+LinkedIn
+Antoine Bruna
+Co-Founder
+LinkedIn
+Anvita Varshney
+PROBLEM	SOLUTION
+VALUE PROPOSITION
+CapQuest helps startups manage ownership with clarity and confidence, giving you a single source of truth for
+equity, real-time insights for smarter fundraising decisions, and full transparency across all stakeholders.
+Streamlines cap table management, equity allocation, and convertible tracking, providing a single source of
+truth for all ownership matters.
+Empowers founders with real-time insights and scenario modeling to manage dilution, support fundraising,
+and make informed decisions.
+Managing equity is often complex, time-consuming,
+and opaque; employees rarely understand share
+value, and founders struggle with cap table
+accuracy.
+CapQuest provides a centralized platform that
+simplifies cap table management, tracks all
+ownership elements in one place, and delivers
+real-time insights to support smarter fundraising
+and equity decisions.
+CAPITAL RAISED TO DATE
+CapQuest
+BUSINESS MODEL
+capquest.com
+$1,750,000 USD
+TRACTION
+B2B SaaS platform with monthly and annual subscription packages priced based on number of
+stakeholders
+Business development (62%)
+Product development (20%)
+G&A (9%)
+Marketing (9%)
+$2,000,000 USD
+$15,000	
+63 	92%	10+
+ACTIVE COMPANIES	GROWTH RATE	MONTHLY REVENUE	PARTNERSHIPS
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+CURRENT ASK
+
+-- 6 of 22 --
+
+REVENUE GENERATING
+Yes
+CLOSED FUNDING ROUNDS
+Yes
+INDUSTRY
+Technology
+STAGE
+Seed
+PROBLEM	SOLUTION
+VALUE PROPOSITION
+Defy delivers an AI-native compliance platform that enables banks, financial institutions and digital asset
+businesses to manage risk, AML, and regulatory operations more intelligently and efficiently.
+Without replacing existing systems, Defy makes compliance and risk operations more automated, accurate,
+and scalable.
+It automates monitoring and investigations, reducing manual work and false positives while speeding up
+responses to financial crime.
+From AML to Travel Rule, Defy turns fragmented processes into a faster, more scalable operation.
+Co-Founder
+LinkedIn
+Suat Ozkan
+Rising AML, KYT, and Travel Rule requirements make
+digital asset compliance complex and costly, leading
+to fragmented operations, inefficiencies, high false
+positives, and increased regulatory and financial
+crime risk.
+An AI-native compliance platform that automates
+AML, monitoring, and investigation workflows to
+reduce false positives, lower manual workload, and
+enable faster, more accurate compliance decisions.
+Co-Founder
+LinkedIn
+Hasret Ozkan
+CAPITAL RAISED TO DATE
+Defy
+BUSINESS MODEL
+Defy.com
+$470,000 USD
+TRACTION
+SaaS platform offering tiered subscription pricing to banks, fintech, and crypto companies, based on
+transaction volume, number of monitored wallets, and selected compliance modules (AML, KYT, Travel Rule,
+sanctions screening).
+6 paying enterprise clients (banks, exchanges, custody providers).
+Focused on global scaling and developing next-
+generation products and tools.
+$1,000,000 USD
+CURRENT ASK
+$10,000	
+7 	150%	1
+USERS	GROWTH RATE	MONTHLY REVENUE	TÜRKIYE BANK POC
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+
+-- 7 of 22 --
+
+REVENUE GENERATING
+Yes
+CLOSED FUNDING ROUNDS
+Yes
+INDUSTRY
+Technology
+STAGE
+Seed
+PROBLEM	SOLUTION
+VALUE PROPOSITION
+Digitech Oasis delivers autonomous robotics and AI solutions that automate internal logistics, helping
+manufacturers and warehouses move goods with greater precision, efficiency, and lower-cost materials. Its
+platform enhances accuracy, minimizes downtime, and reduces operational costs
+The system combines fleet-level intelligence, real-time navigation, and autonomous energy management.
+Delivers 97.7% navigational accuracy, reducing mispicks and errors.
+It ensures no operational downtime and cuts energy costs by up to 57% compared to traditional methods.
+Co-Founder
+LinkedIn
+Ayaan Ali
+CAPITAL RAISED TO DATE
+Digitech Oasis
+BUSINESS MODEL
+Manufacturers and warehouses face inefficient and
+error-prone internal logistics operations due to
+reliance on manual workflows, limited real-time
+visibility, and rising labor and energy costs.
+A fleet of autonomous mobile robots powered by
+AI that streamline material movement and
+workflow operations, reducing errors, eliminating
+downtime, and optimizing energy consumption
+across industrial environments.
+digitechoasis.com
+$10M USD EQUITY
+TRACTION
+Multi-stream revenue model combining:
+SaaS,
+Robotics-as-a-Service (RaaS),
+Platform-as-a-Service (PaaS) solutions for enterprise customers.
+Fund next-gen robotics, team expansion, and
+international scaling.
+CURRENT ASK
+$800,000	
+5,160 	250%	180
+USERS	GROWTH RATE	MONTHLY REVENUE	ROBOTS DEPLOYED
+$450,000 USD grants
+SERIES A - $20M PLANNED
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+
+-- 8 of 22 --
+
+REVENUE GENERATING
+Yes
+CLOSED FUNDING ROUNDS
+Yes
+INDUSTRY
+Technology
+STAGE
+Seed
+PROBLEM	SOLUTION
+VALUE PROPOSITION
+Disrupt-X is an AI-driven platform that transforms buildings into intelligent, revenue-generating assets by
+centralizing property and facilities operations.
+Unifies asset management, maintenance, digital twins, IoT monitoring, and workforce tracking through
+ALEF 360°, enabling optimized performance and reduced downtime.
+Enhances operational efficiency, lowers maintenance costs, and improves tenant experience through
+data-driven insights and automation.
+Co-Founder and CEO
+LinkedIn
+Asim Sajwani
+CAPITAL RAISED TO DATE
+Disrupt-X
+BUSINESS MODEL
+Commercial real estate and facility operations
+are highly fragmented, relying on disconnected
+systems and manual processes that limit
+visibility, reduce efficiency, and increase
+operational costs.
+Disrupt-X provides a unified AI- and IoT-powered
+platform (ALEF 360°) that connects assets,
+automates operations, and delivers real-time
+insights to optimize building management and
+decision-making
+disrupt-x.com
+$8.85M USD
+TRACTION
+Recurring revenue from access to its platform solutions (IoT monitoring, CAFM, iBMS)
+Clients can start with specific modules and expand over time, increasing lifetime value
+Tailored deployments for large organizations across real estate and facility management
+Market Expansion
+Cap Table Neutralization
+Cashflow
+$12M USD
+$300K+	
+50+ 	200%	10+
+USERS	GROWTH RATE	MONTHLY REVENUE	PARTNERSHIPS
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+CURRENT ASK
+
+-- 9 of 22 --
+
+REVENUE GENERATING
+No
+CLOSED FUNDING ROUNDS
+NO
+INDUSTRY
+Health
+STAGE
+Pre-seed
+Co-Founder and CEO
+LinkedIn
+Mahmoud Suliman
+Co-Founder and CTO
+LinkedIn
+Sreecharan Malee
+TRACTION
+PROBLEM	SOLUTION
+Neulink is an AI-powered platform that enables pharmacies to streamline operations by integrating inventory
+management and insurance claims processing into a single, unified system.
+Reduces operational costs by up to 40% through automation of inventory and claims workflows
+Achieves up to 99.8% inventory accuracy, minimizing stock discrepancies and improving supply management
+Cuts medication errors by up to 95%, enhancing patient safety and compliance
+Processes insurance claims up to 5x faster, improving cash flow and operational efficiency
+Eliminates fragmented systems by providing a unified platform for pharmacy operation
+Pharmacy operations remain fragmented and
+largely manual, resulting in inventory inefficiencies,
+increased waste, and slow insurance claim
+approvals.
+Neulink provides an AI-powered, end-to-end
+platform that automates supply chain management,
+demand planning, and insurance claims processing,
+enabling pharmacies to operate more efficiently,
+accurately, and at scale.
+Annual subscription, establishment depending on the product.
+Pre-revenue, with the first hospital deal in India valued at $13,000/year.
+LOI signed with Al Khaleej Drug Store for deployment across their owned pharmacies.
+CAPITAL RAISED TO DATE
+Neulink
+BUSINESS MODEL
+neulink.com
+$130,000 USDProduct Development and Operations
+$500,000 USD
+CURRENT ASK
+$5,000	
+$750 	8	30KPILOTS	GOVERNMENT
+GRANTS
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+VALUE PROPOSITION
+RECOVERED
+UNPAID PDCS
+INVENTORY
+SAVINGS
+
+-- 10 of 22 --
+
+REVENUE GENERATING
+Yes
+CLOSED FUNDING ROUNDS
+Yes
+INDUSTRY
+Sustainability
+STAGE
+Pre-seed
+PROBLEM	SOLUTION
+VALUE PROPOSITION
+Palmear is a patented pest detection technology that uses bioacoustic AI to detect hidden vibrations in
+biological systems — such as palm trees
+Identifies infestations with 90% accuracy, allowing rapid, targeted action while reducing pesticide use
+by 40%.
+Enhances agricultural productivity by increasing yields by 15% and delivering real-time tree health
+insights
+Co-Founder
+LinkedIn
+Zeid Sinokrot
+Today, farmers walk row by row, manually
+checking each tree by eye or tapping the trunk, It
+takes weeks, misses early-stage infestations,
+This costs farms $63,000+ in damages on average
+Palmear solves this in 20 seconds by using its
+proprietary AI detection algorithm and acoustic
+sensors to detect pests in real time from inside
+crops
+Co-Founder and CTO
+LinkedIn
+Bashar AhmadBusiness Development
+LinkedIn
+Gabriella Hanna
+CAPITAL RAISED TO DATE
+Palmear
+BUSINESS MODEL
+palmear.com
+$1,600,000 USD
+TRACTION
+Technology licensing
+Inspection-based model (inspectors conduct field inspections; Palmear takes a commission/cut)
+Hardware sales + annual AI software subscriptions for farmers
+Tree-count licensing model for governments
+Marketing & Go-To-Market
+Access New Markets
+Reduce Cost of Goods
+$750,000 USD
+$10,000	
+45 	30%	4
+USERS	GROWTH RATE	MONTHLY REVENUE	LARGE CUSTOMERS
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+CURRENT ASK
+
+-- 11 of 22 --
+
+REVENUE GENERATING
+No
+CLOSED FUNDING ROUNDS
+No
+INDUSTRY
+Health
+STAGE
+Pre-seed
+Co-Founder & CEO
+LinkedIn
+Mahra Al Hosani
+PROBLEM	SOLUTION
+Pharmedic is a precision health platform that uses AI and genomic insights to personalize treatments, reduce
+adverse drug reactions, and optimize patient outcomes
+Reduces adverse drug reactions (ADRs), prescription errors, and polypharmacy risks through AI-driven insights
+Addresses a critical gap in healthcare by shifting from standardized prescribing to individualized, data-driven
+care
+Supports patients and clinicians with localized, multilingual guidance across medications, supplements, and
+nutrition (available in 7 languages)
+CAPITAL RAISED TO DATE
+Pharmedic
+BUSINESS MODEL
+Healthcare remains largely standardized, with a
+one-size-fits-all approach, despite significant
+differences in how patients metabolize medications,
+leading to adverse drug reactions, ineffective
+treatments, and increased healthcare costs.
+Pharmedic leverages AI and genomic insights to
+personalize treatment decisions, enabling safer
+prescriptions, reducing adverse drug reactions, and
+optimizing patient outcomes across medications,
+supplements, and nutrition.
+pharmedic.com
+$99,000 USD
+TRACTION
+Freemium B2C model with subscription-based upgrades, complemented by MOHAP-certified genetic
+screening kits
+B2B monetization through a premium SaaS platform for healthcare providers
+Early revenue stage, with initial sales of 10 genetic testing kits (AED 2,200 per kit) and $750 generated
+from licenses to 15 beta users
+Sales & Commercialization (40%)
+Product Expansion (25%)
+Regulatory & Compliance (15%)
+Operations (10%)
+Hiring & Tech Support (10%)
+$540,000 USD
+CURRENT ASK
+3 	130 	$83K	3PILOT USERS &
+EARLY ADOPTERSPARTNERSHIPS	SUPPORT PROGRAMS
+CLICK HERE
+IN GRANT
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+VALUE PROPOSITION
+
+-- 12 of 22 --
+
+REVENUE GENERATING
+Yes
+CLOSED FUNDING ROUNDS
+Yes
+INDUSTRY
+Technology
+STAGE
+Seed
+PROBLEM	SOLUTION
+VALUE PROPOSITION
+Professional.me is AI infrastructure for talent intelligence, helping organizations understand who thrives where and
+why — powering smarter decisions across hiring, retention, succession planning, internal mobility, learning and
+development, and workforce optimization.
+At its core is MEg, an AI assistant inside WhatsApp, Slack, and Microsoft Teams, using micro-LLM technology to
+evaluate capability rather than match keywords.
+It integrates with 40+ ATS and HRIS systems as an intelligence layer, enhancing the tools organizations already
+use.
+Co-Founder
+LinkedIn
+Megan Adams
+Professional.me turns talent data into a single
+intelligence layer using 40+ HR, ATS, and PMS
+integrations. It delivers insights on hiring, attrition
+risk, leadership, internal mobility, and restructuring
+via MEg on WhatsApp, Slack, and Teams.
+Founder & CEO
+LinkedIn
+Ryan Adams
+CAPITAL RAISED TO DATE
+Professional.me
+BUSINESS MODEL
+professional.me.com
+$4.6M
+TRACTION
+Single-role hiring starts at $200 per position — no subscription required.
+Full platform starts at $6 per employee/month, covering hiring, internal mobility, and retention intelligence.
+Scales to $10 per employee/month for succession planning, L&D, and learning ROI.
+Enterprise workforce optimization is custom-priced.
+CURRENT ASK
+600,000+	
+87%	$15,000	3SAVINGS PER
+HIREGLOBAL AWARDS
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+Talent decisions are often based on incomplete or
+outdated data. Organizations lack a unified view of
+internal skills and rely on fragmented hiring data,
+leading to mis-hires, attrition, leadership gaps, and
+overlooked talent. The root cause is poor data.
+PROFILES ANALYZED	FASTER SCREENING
+LED BY RAHA BEACH VENTURES.
+
+-- 13 of 22 --
+
+REVENUE GENERATING
+Yes
+CLOSED FUNDING ROUNDS
+No
+INDUSTRY
+Technology
+STAGE
+Bootstrapped
+TRACTION
+PROBLEM	SOLUTION
+VALUE PROPOSITION
+Qode provides a single unified platform that enables venues to carry out an end-to-end digital enablement of their
+business; from Customer Experience, back of house operations and data driven insights.
+Provides digital transformation tools that reduce costs and boost operational efficiency.
+Maximizes facility utilization and guest retention through real-time visibility.
+Offers tailored features for specialized markets instead of generic solutions.
+Uses data-driven analytics to monitor performance and track usage trends.
+Co-Founder and CEO
+LinkedIn
+Ahmed Alqubaisi
+Sports and leisure venues rely on fragmented
+systems for bookings, CRM, and payments,
+leading to operational inefficiencies, manual
+processes, and lost revenue.
+A unified, data-driven platform that consolidates
+bookings, customer management, and payments
+into one system, improving operational efficiency
+and enabling better decision-making.
+CDO
+LinkedIn
+Zaka Jibran
+CAPITAL RAISED TO DATE
+Qode
+BUSINESS MODEL
+Qode.com
+$3M USD (Bootstrapped)
+Primarily recurring B2B SaaS subscriptions of 80%
+Custom development and implementation services of 20% for government and enterprise clients.
+Seeking Partnerships
+CURRENT ASK
+$400,000	
+35 	53%	3USERS	GROWTH RATE	MONTHLY REVENUE	PARTNERSHIP
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+
+-- 14 of 22 --
+
+REVENUE GENERATING
+Yes
+CLOSED FUNDING ROUNDS
+Yes
+INDUSTRY
+Sustainability
+STAGE
+Seed
+PROBLEM	SOLUTION
+VALUE PROPOSITION
+ReflowX is a MENA-focused marketplace for surplus and salvage oil & gas equipment, enabling circular economy
+procurement across the energy sector.
+Transforms dormant industrial assets into immediate capital while reducing procurement lead times and
+capital expenditure.
+Provides auditable CO₂ savings and ESG reporting, supporting UAE Net Zero 2050 and circular economy goals.
+Co-Founder and CEO
+LinkedIn
+Jamie Poole
+The energy sector faces excessive waste and
+emissions, with surplus equipment often
+ending up in landfills due to limited sourcing
+visibility.
+A circular procurement platform connecting
+energy companies with underutilized equipment,
+reducing reliance on new materials.
+Revenue from equipment sales commissions (6% online, 8–15% offline), inspection services, freight
+services, and paid listings.
+Partnerships: MOUs with Aramex, Siepem, 10+ equipment suppliers, and MSA with Bureau Veritas;
+discussions ongoing with ADNOC.
+Co-Founder
+LinkedIn
+Dan Poole
+Co-Founder
+LinkedIn
+Chirag Parmar
+CAPITAL RAISED TO DATE
+ReflowX
+BUSINESS MODEL
+Reflowx.com
+$100,000 USD
+TRACTION
+Sales – Drive turbine deployment
+EPC Access – Secure AVL listings (MENA)
+Procurement – Global sourcing at scale
+$2,000,000 USD
+$10,000	
+400 	70%	$33M+
+USERS / PER DAY	GROWTH RATE	MONTHLY REVENUE	(GMV) ON SIGNED
+CONTRACTS
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+CURRENT ASK
+
+-- 15 of 22 --
+
+REVENUE GENERATING
+Yes
+CLOSED FUNDING ROUNDS
+Yes
+INDUSTRY
+Deeptech Robotics
+AI & Retail Automation
+STAGE
+Seed
+Co-Founder and CEO
+LinkedIn
+Billel Boudouma
+Co-Founder and CCO
+LinkedIn
+Mohamed Ali
+PROBLEM	SOLUTION
+VALUE PROPOSITION
+Robox is a UAE-based deeptech company building intelligent, autonomous retail stores that combine
+robotics, AI, and retail automation to enable brands and venues to automate personalization and sales in
+physical spaces.
+Delivers capex-free, AI-powered robotic installations deployable in under 72 hours through a Robotics-as-
+a-Service (RaaS) model.
+Retail remains manual, capex-heavy, and slow to
+scale — 71% of consumers expect personalization,
+yet 80% of in-store operations remain untouched
+by automation, with new locations requiring
+$250K+ and 6–12 months to deploy.
+Robox deploys plug-and-play autonomous retail
+robots that automate personalization and sales
+with zero upfront capex, no engineers required,
+24/7 AI-driven operations, and deployment in
+under 72 hours through a revenue-sharing model.
+CAPITAL RAISED TO DATE
+Robox
+BUSINESS MODEL
+Robox.com
+$600,000 USD
+of $1.2M round
+TRACTION
+Robotics-as-a-Service (RaaS): recurring fees, no capex for partners
+Revenue Share: 50/50 on transactions processed
+$500–600K remaining to close
+Raising $1.2M SAFE at $8M post-
+money cap with 15% discount
+$700K+	
+30,000+ 	20+	0%TRANSACTIONS
+PROCESSEDDEPLOYMENTS	REVENUE TO DATE	CHURN
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+CURRENT ASK
+Co-Founder & CTO
+LinkedIn
+Zoubir Ameur
+
+-- 16 of 22 --
+
+REVENUE GENERATING
+Yes
+CLOSED FUNDING ROUNDS
+Yes
+INDUSTRY
+Technology
+STAGE
+Seed
+TRACTION
+PROBLEM	SOLUTION
+VALUE PROPOSITION
+SLZ develops AI-powered digital twin and AR/XR solutions that automate complex MEP design and
+construction workflows. Its technology significantly reduces design time and rework while enabling real-
+time, data-driven coordination across project teams.
+AI-powered automated MEP route planning cuts design time
+AR/XR collaboration improves communication and reduces site visits
+Reduces rework costs by up to 30% and engineering hours by 80%
+Co-Founder and CEO
+LinkedIn
+Yumi Lee
+MEP (Mechanical, Electrical, and Plumbing) design
+remains a major bottleneck in construction, driven
+by manual workflows, limited site visibility, and
+fragmented coordination across teams.
+A platform that integrates digital twins and AR/XR
+to enable real-time, on-site design adjustments,
+improving coordination and resolving construction
+issues efficiently.
+Co-Founder and CEO
+LinkedIn
+Jaeheon Jung
+CAPITAL RAISED TO DATE
+SLZ
+BUSINESS MODEL
+SLZ.com
+$1.2M USD
+SaaS subscription offering AI- and AR-powered digital twin solutions to construction firms and
+developers, with scalable pricing tiers ranging from small teams to enterprise clients.
+Revenue of $700K USD from enterprise pilots and project implementation services.
+Global Service Launch
+Localization
+$2M USD
+CURRENT ASK
+$8,000	
+10 	200%	$700KENTERPRISE
+GOVERNMENT USERSANNUAL REVENUE	MONTHLY REVENUE	ENTERPRISE PILOTS
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+
+-- 17 of 22 --
+
+REVENUE GENERATING
+Yes
+CLOSED FUNDING ROUNDS
+Yes
+INDUSTRY
+Education
+STAGE
+Seed
+PROBLEM	SOLUTION
+VALUE PROPOSITION
+Smartail is a DeepTech company that developed Deepgrade, an AI platform that automates the grading of
+handwritten assessments while providing insights into student performance patterns.
+Automates assessment and grading to reduce time, bias, and inefficiencies in traditional evaluation
+methods.
+Enables educators to focus on teaching and student engagement by delivering actionable performance
+insights.
+Co-Founder and CEO
+LinkedIn
+Aslam Sherieff
+Educational institutions rely on manual, time-
+consuming grading and fragmented assessment
+systems that limit personalized learning and
+reduce the effectiveness of data-driven
+teaching.
+Smartail provides an AI-powered assessment
+platform that automates grading, delivers real-
+time analytics, and identifies learning gaps to
+enable personalized, data-driven education at
+scale.
+Co-Founder and CEO
+LinkedIn
+Swaminathan Ganesan
+Co-Founder and CTO
+LinkedIn
+Kannan Ganesan
+CAPITAL RAISED TO DATE
+Smartail
+BUSINESS MODEL
+smartail.ai
+~$2.1M USD
+TRACTION
+Annual Subscription Fees: Educational institutions pay per student for access to the DeepGrade AI
+assessment and grading platform
+Scalable Pricing: Revenue grows with the number of students onboarded across institutions
+Growth (60%) – Scale operations & team
+Revenue – Marketing, pilots & sales
+Product – Platform enhancement
+$1.5M USD
+$11,000	
+100+ 	60%+	40,000
+CUSTOMERS	GROWTH RATE	MONTHLY REVENUE	STUDENTS
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+CURRENT ASK
+
+-- 18 of 22 --
+
+REVENUE GENERATING
+Yes
+CLOSED FUNDING ROUNDS
+Yes
+INDUSTRY
+Technology
+STAGE
+Series A
+PROBLEM	SOLUTION
+Operating at the convergence of AI, quantum disruption, and digital sovereignty, it builds quantum-secure
+communications, post-quantum cryptography, and military-grade infrastructure to protect governments and
+critical industries.
+Its platform integrates discovery, cryptography, communications, and migration. The QCBOM maps risks and
+enables regulator-aligned pathways, positioning it with global leaders.
+It delivers TRL 9 technologies including secure communications, Quantum Secure VPNs, HSMs, secure chips,
+and 5G Core and O-RAN solutions.
+Co-Founder and CTO
+LinkedIn
+Vipin Rathi
+The rise of quantum computing has created the
+quantum threat, harvest now decrypt later has
+meant all data is at risk of being decrypted by
+adversaries
+Post-quantum cryptography (PQC) secures data
+against quantum threats, with PQC migration
+services helping institutions identify
+vulnerabilities and implement PQC to protect
+their digital infrastructure.
+Co-Founder and CEO
+LinkedIn
+Jay Oberai
+CAPITAL RAISED TO DATE
+Synergy Quantum
+BUSINESS MODEL
+synergyquantum.com
+$9M
+TRACTION
+Revenue model: PQC migration services, technology licensing, and after-sales support.
+Revenue-generating with an expanding order-book, targeting $11.5M this year.
+Clients include financial institutions, sovereign infrastructure, defence, and telecom sectors.
+POCs with Emirates NBD, Nokia, Thales, India MOD, Standard Chartered (Qubita), and C-DOT.
+60% Market Expansion
+40% R&D
+$10M
+$111m	
+$11.5m 	10+	3
+GTM PARTNERS
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+VALUE PROPOSITION
+EXPECTED IN 2026	PATENTS	PIPELINE
+CURRENT ASK
+
+-- 19 of 22 --
+
+REVENUE GENERATING
+Yes
+CLOSED FUNDING ROUNDS
+Yes
+INDUSTRY
+Water
+STAGE
+Seed
+PROBLEM	SOLUTION
+VALUE PROPOSITION
+Terra Grow offers AI-driven hydroponic systems that enable efficient, high-yield food production anywhere,
+reducing costs and improving sustainability.
+Terra Grow provides autonomous food infrastructure powered by Cognivue AI, combining IoT sensors and
+precision hydroponics to deliver fresh, high-yield produce anywhere from urban rooftops to large-scale farms.
+Modular snap-fit pods make it easy to deploy for homes, cafes, and large growers.
+Open API integration allows connection with solar and smart-grid systems for sustainable operations.
+Co-Founder
+LinkedIn
+Mohammed Raiyan
+Traditional agriculture relies on resource-intensive
+practices, long supply chains, and limited arable
+land, leading to inefficiencies, high costs, and
+inconsistent access to fresh produce.
+AI-powered, IoT-enabled hydroponic systems that
+enable autonomous, high-yield food production in
+any environment, using real-time data and precision
+controls to optimize growth conditions.
+B2B and B2C model: revenue from hardware sales, SaaS subscriptions ($19–39/month), consumables,
+and services (installation & maintenance).
+Pay-as-you-Grow leases and enterprise solutions offering white-label farms, ESG data, and grid
+integrations with revenue-share potential.
+Co-Founder
+LinkedIn
+Marvin Recto
+CAPITAL RAISED TO DATE
+Terra Grow
+BUSINESS MODEL
+terra-grow.com
+$50,000 USD
+TRACTION
+30% AI Optimization
+25% product deployment
+25% partnership and B2B deals
+20% manufacturing & scaling
+$2M USD
+$6,000	
+4,500 	12%	840
+USERS	GROWTH RATE	MONTHLY REVENUE	PAYING CLIENTS
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+CURRENT ASK
+
+-- 20 of 22 --
+
+REVENUE GENERATING
+Yes
+CLOSED FUNDING ROUNDS
+Yes
+INDUSTRY
+Space
+STAGE
+Friends and Family
+PROBLEM	SOLUTION
+VALUE PROPOSITION
+Third Body Dynamics develops modular, AI-powered satellite systems enabling faster and more
+accessible space missions.
+Delivers AI-native, plug-and-play satellites with onboard autonomy and EO analytics, reducing costs
+and accelerating deployment from years to weeks.
+Provides scalable intelligence-as-a-service supporting climate monitoring, infrastructure resilience,
+and security use cases across MENA.
+--
+Co-Founder
+LinkedIn
+Alnawazkhan Ayubkhan
+CAPITAL RAISED TO DATE
+Third Body Dynamics
+BUSINESS MODEL
+Over 60% of nations lack access to satellites this is
+because the space infrastructure is complex,
+expensive, and slow, with traditional satellite
+systems lacking flexibility, scalability, and rapid
+deployment capabilities.
+TBD (Third Body Dynamics) develops modular,
+AI-powered satellite systems that enable faster,
+more flexible, and cost-efficient access to space
+infrastructure for a wide range of missions.
+TBD.com
+$65,000 USD
+TRACTION
+Access to satellite infrastructure without upfront ownership costs
+Monetization of Earth Observation (EO) data and insights
+Subscription-based access to analytics and mission intelligence tools
+Product (Prototyping & Beta Roll-Out) (50%)
+Team Scale-Up (30%)
+Operations (20%)
+$3,000,000 USD
+2 	3USERS	RECOGNITIONS
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+CURRENT ASK
+
+-- 21 of 22 --
+
+REVENUE GENERATING
+Yes
+CLOSED FUNDING ROUNDS
+Yes
+INDUSTRY
+Healthcare &
+Technology
+STAGE
+Series A
+PROBLEM	SOLUTION
+VALUE PROPOSITION
+Toothpick is the operating system for out-of-pocket healthcare, connecting clinics, distributors, and financial
+institutions into one unified platform.
+Powers healthcare transactions and operations by integrating procurement, financing, and clinic workflows
+into a single system.
+Improves cash flow and efficiency, distributors scale their reach, and patients gain better access to
+treatments.
+Co-Founder
+LinkedIn
+Sary Azakir
+Healthcare relies on fragmented systems.
+Clinics use disconnected tools for payments,
+financing, and procurement, reducing efficiency,
+weakening cash flow, and limiting patient
+conversion.
+Toothpick is an integrated platform that unifies
+procurement, financing, and digital clinic
+operations, connecting clinics, distributors, and
+patients into one seamless, efficient ecosystem.
+Co-Founder
+LinkedIn
+Wael Bizri
+CAPITAL RAISED TO DATE
+Toothpick
+BUSINESS MODEL
+toothpick.com
+7M USD
+TRACTION
+Earns a share of revenues through BNPL and financing solutions (ToothPay & ToothPay Business) in
+partnership with banks and financial institutions
+Takes a commission on transactions between clinics and distributors within its platform
+Charges clinics for access to premium tools, services, and platform usage
+Technology / R&D
+Legal / Licenses
+Marketing / Go-To-Market Campaign
+Business Development
+C-Level / Key-Departments Hiring
+$10M USD
+$450,000	
+150,000+ 	20+	+1100
+PATIENTS FINANCED	FINTECH AND
+BANKING PARTNERSMONTHLY REVENUE	CLINICS IN NETWORK
+CLICK HERE
+Book a Meeting
+“Please make sure when booking a meeting to include the startup or founder name in the subject”
+CURRENT ASK
+
+-- 22 of 22 --
+

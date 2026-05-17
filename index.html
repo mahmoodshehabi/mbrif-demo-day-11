@@ -1,0 +1,665 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MBRIF Demo Day · Cohort 11</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<style>
+  /* ============ HERO ============ */
+  .hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 140px 0 100px;
+  }
+  #hero-canvas { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; }
+  .hero__vignette {
+    position: absolute; inset: 0; z-index: 1; pointer-events: none;
+    background:
+      radial-gradient(circle at var(--mx, 30%) var(--my, 40%), rgba(56,198,255,0.18), transparent 25%),
+      linear-gradient(180deg, transparent 60%, var(--navy-950) 100%);
+  }
+  .hero__inner { position: relative; z-index: 2; width: 100%; }
+  .hero__grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+  .hero h1 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(48px, 7vw, 96px);
+    line-height: 0.96;
+    letter-spacing: -0.02em;
+    margin: 22px 0 28px;
+  }
+  .hero h1 .line { display: block; overflow: hidden; }
+  .hero h1 .line span {
+    display: inline-block;
+    transform: translateY(110%);
+    animation: lineUp 1.1s cubic-bezier(.22,.61,.36,1) forwards;
+  }
+  .hero h1 .line:nth-child(2) span { animation-delay: 0.1s; }
+  .hero h1 .line:nth-child(3) span { animation-delay: 0.2s; }
+  @keyframes lineUp { to { transform: translateY(0); } }
+  .hero__sub {
+    font-size: clamp(16px, 1.4vw, 19px);
+    line-height: 1.55;
+    color: var(--ink-300);
+    max-width: 520px;
+    margin: 0 0 36px;
+  }
+  .hero__meta {
+    display: flex; flex-wrap: wrap; gap: 28px;
+    padding: 24px 0; margin-bottom: 36px;
+    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+  }
+  .hero__meta-item { display: flex; flex-direction: column; gap: 4px; }
+  .hero__meta-label {
+    font-family: var(--font-mono); font-size: 10.5px;
+    letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-500);
+  }
+  .hero__meta-value { font-size: 17px; font-weight: 500; color: var(--ink-100); }
+  .hero__ctas { display: flex; gap: 14px; flex-wrap: wrap; }
+  .hero__visual {
+    position: relative;
+    aspect-ratio: 1 / 1.05;
+    border-radius: var(--radius-xl);
+    background: linear-gradient(160deg, rgba(46,107,255,0.18), rgba(94,231,208,0.06) 60%, rgba(255,255,255,0.02));
+    border: 1px solid var(--line-strong);
+    padding: 32px;
+    overflow: hidden;
+    backdrop-filter: blur(20px);
+  }
+  .hero__visual::before {
+    content: ""; position: absolute; inset: 0;
+    background:
+      repeating-linear-gradient(45deg,
+        rgba(56,198,255,0.06) 0 1px,
+        transparent 1px 80px);
+    pointer-events: none;
+  }
+  .hero__visual-logo {
+    display: flex; align-items: center; justify-content: center;
+    height: 60%;
+  }
+  .hero__visual-logo img { max-width: 75%; max-height: 100%; filter: drop-shadow(0 8px 30px rgba(46,107,255,0.4)); animation: floaty 6s ease-in-out infinite; }
+  @keyframes floaty {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+  }
+  .hero__visual-caption {
+    position: absolute; bottom: 28px; left: 32px; right: 32px;
+    display: flex; align-items: flex-end; justify-content: space-between;
+    gap: 18px;
+  }
+  .hero__visual-caption h3 {
+    font-family: var(--font-display); font-size: 28px; font-weight: 600;
+    margin: 0 0 6px; line-height: 1.1;
+  }
+  .hero__visual-caption p {
+    font-family: var(--font-mono); font-size: 11px;
+    letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-300); margin: 0;
+  }
+  .hero__visual-badge {
+    flex-shrink: 0;
+    padding: 10px 14px; border-radius: 12px;
+    background: rgba(0,0,0,0.3); border: 1px solid var(--line-strong);
+    font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--cyan-400);
+    text-align: center; line-height: 1.4;
+  }
+  .hero__visual-badge strong { display: block; color: white; font-size: 18px; letter-spacing: -0.01em; text-transform: none; font-family: var(--font-display); }
+
+  /* ============ MARQUEE ============ */
+  .marquee {
+    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    overflow: hidden; padding: 28px 0;
+    background: rgba(255,255,255,0.02);
+  }
+  .marquee__track {
+    display: flex; gap: 60px; white-space: nowrap;
+    animation: marqueeScroll 50s linear infinite;
+  }
+  .marquee__item {
+    font-family: var(--font-display); font-weight: 500; font-size: 22px;
+    color: var(--ink-300); display: inline-flex; align-items: center; gap: 60px;
+  }
+  .marquee__item::after {
+    content: "◆"; color: var(--cyan-400); font-size: 12px;
+  }
+  @keyframes marqueeScroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  /* ============ IMPACT ============ */
+  .impact {
+    padding: 140px 0 120px;
+    background: linear-gradient(180deg, var(--navy-950), var(--navy-900));
+    position: relative; overflow: hidden;
+  }
+  .impact::before {
+    content: ""; position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+    background-size: 60px 60px;
+    mask-image: radial-gradient(ellipse at center, black 30%, transparent 70%);
+    pointer-events: none;
+  }
+  .impact__head {
+    display: grid; grid-template-columns: 1fr 1.2fr; gap: 60px; margin-bottom: 80px;
+    position: relative;
+  }
+  .impact__title {
+    font-family: var(--font-display); font-weight: 600;
+    font-size: clamp(38px, 4.5vw, 64px);
+    line-height: 1.05; letter-spacing: -0.02em;
+    margin: 16px 0 0;
+  }
+  .impact__desc { color: var(--ink-300); line-height: 1.6; font-size: 17px; max-width: 540px; }
+  .impact__grid {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px;
+    position: relative;
+  }
+  .stat {
+    padding: 36px 28px;
+    border-radius: var(--radius-lg);
+    background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01));
+    border: 1px solid var(--line);
+    position: relative; overflow: hidden;
+    transition: border-color 0.3s, transform 0.3s;
+  }
+  .stat:hover { border-color: rgba(56,198,255,0.4); transform: translateY(-4px); }
+  .stat::before {
+    content: ""; position: absolute; top: 0; left: 0; right: 0; height: 1px;
+    background: linear-gradient(90deg, transparent, var(--cyan-400), transparent);
+    opacity: 0.3;
+  }
+  .stat__num {
+    font-family: var(--font-display); font-weight: 600;
+    font-size: clamp(44px, 5vw, 64px); line-height: 1;
+    letter-spacing: -0.03em;
+    background: linear-gradient(135deg, #fff 0%, #8ed4ff 100%);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 14px;
+  }
+  .stat__label {
+    font-size: 14px; color: var(--ink-300); line-height: 1.4;
+  }
+  .stat__icon {
+    position: absolute; top: 24px; right: 24px;
+    width: 28px; height: 28px; border-radius: 8px;
+    border: 1px solid var(--line-strong);
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--font-mono); font-size: 11px; color: var(--cyan-400);
+  }
+
+  /* ============ STARTUPS ============ */
+  .startups {
+    padding: 120px 0;
+    background: var(--navy-900);
+    position: relative;
+  }
+  .startups__head {
+    display: flex; align-items: flex-end; justify-content: space-between;
+    gap: 40px; margin-bottom: 60px;
+  }
+  .startups__title {
+    font-family: var(--font-display); font-weight: 600;
+    font-size: clamp(38px, 4.5vw, 64px);
+    line-height: 1.05; letter-spacing: -0.02em;
+    margin: 16px 0 0; max-width: 700px;
+  }
+  .startups__counter {
+    font-family: var(--font-mono); font-size: 13px; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--ink-300); white-space: nowrap;
+    padding: 10px 14px; border-radius: 999px;
+    border: 1px solid var(--line-strong);
+  }
+  .startups__counter strong { color: var(--cyan-400); font-weight: 500; }
+  .startups__grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px;
+  }
+  .card {
+    position: relative; padding: 28px; border-radius: var(--radius-lg);
+    background: linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.015));
+    border: 1px solid var(--line);
+    transition: border-color 0.3s, background 0.3s;
+    overflow: hidden;
+    will-change: transform;
+    display: flex; flex-direction: column; min-height: 280px;
+    cursor: pointer;
+  }
+  .card::before {
+    content: ""; position: absolute; inset: 0;
+    background: linear-gradient(135deg, var(--card-accent, transparent) 0%, transparent 50%);
+    opacity: 0; transition: opacity 0.3s; pointer-events: none;
+  }
+  .card:hover { border-color: var(--card-accent, var(--cyan-400)); }
+  .card:hover::before { opacity: 0.12; }
+  .card__glow {
+    position: absolute; inset: 0; pointer-events: none;
+    opacity: 0; transition: opacity 0.3s;
+  }
+  .card:hover .card__glow { opacity: 1; }
+  .card__head {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 22px;
+  }
+  .card__logo {
+    width: 56px; height: 56px; border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--font-display); font-weight: 700; font-size: 22px;
+    background: var(--card-accent, rgba(46,107,255,0.2));
+    color: var(--navy-950);
+    box-shadow: 0 8px 24px -8px var(--card-accent, rgba(46,107,255,0.4));
+    position: relative; overflow: hidden;
+  }
+  .card__logo::after {
+    content: ""; position: absolute; inset: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.3), transparent 50%);
+  }
+  .card__tag {
+    font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.18em;
+    text-transform: uppercase; color: var(--ink-300);
+    padding: 6px 10px; border-radius: 999px;
+    border: 1px solid var(--line-strong);
+  }
+  .card__title {
+    font-family: var(--font-display); font-weight: 600;
+    font-size: 26px; letter-spacing: -0.01em; margin: 0 0 8px; color: white;
+  }
+  .card__tagline {
+    font-size: 14.5px; line-height: 1.5; color: var(--ink-300);
+    margin: 0 0 auto; padding-bottom: 20px;
+  }
+  .card__foot {
+    display: flex; align-items: center; justify-content: space-between;
+    padding-top: 18px; border-top: 1px solid var(--line);
+    margin-top: auto;
+  }
+  .card__stage {
+    font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--ink-300);
+    display: flex; align-items: center; gap: 8px;
+  }
+  .card__stage::before {
+    content: ""; width: 6px; height: 6px; border-radius: 50%;
+    background: var(--card-accent, var(--mint-300));
+    box-shadow: 0 0 8px var(--card-accent, var(--mint-300));
+  }
+  .card__arrow {
+    width: 36px; height: 36px; border-radius: 50%;
+    border: 1px solid var(--line-strong);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--ink-100); transition: all 0.3s;
+  }
+  .card:hover .card__arrow {
+    background: var(--card-accent, var(--cyan-400));
+    border-color: transparent; color: var(--navy-950);
+    transform: rotate(-45deg);
+  }
+  .card__arrow svg { width: 14px; height: 14px; }
+
+  /* ============ CTA STRIP ============ */
+  .ctastrip {
+    padding: 100px 0;
+    background: var(--navy-900);
+    position: relative; overflow: hidden;
+  }
+  .ctastrip__inner {
+    position: relative;
+    padding: 80px 60px;
+    border-radius: var(--radius-xl);
+    background:
+      radial-gradient(ellipse at 80% 20%, rgba(94,231,208,0.18), transparent 50%),
+      radial-gradient(ellipse at 20% 80%, rgba(46,107,255,0.22), transparent 50%),
+      linear-gradient(135deg, rgba(56,198,255,0.08), rgba(46,107,255,0.04));
+    border: 1px solid var(--line-strong);
+    overflow: hidden;
+  }
+  .ctastrip__inner::before {
+    content: ""; position: absolute; inset: 0;
+    background: repeating-linear-gradient(45deg,
+      rgba(255,255,255,0.03) 0 1px,
+      transparent 1px 60px);
+  }
+  .ctastrip__content { position: relative; max-width: 720px; }
+  .ctastrip h2 {
+    font-family: var(--font-display); font-weight: 600;
+    font-size: clamp(34px, 4vw, 52px); line-height: 1.05;
+    letter-spacing: -0.02em; margin: 16px 0 18px;
+  }
+  .ctastrip p { font-size: 17px; line-height: 1.6; color: var(--ink-300); margin: 0 0 32px; max-width: 580px; }
+
+  @media (max-width: 1100px) {
+    .startups__grid { grid-template-columns: repeat(2, 1fr); }
+    .impact__grid { grid-template-columns: repeat(2, 1fr); }
+    .impact__head { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 760px) {
+    .hero__grid { grid-template-columns: 1fr; }
+    .hero__visual { display: none; }
+    .startups__grid { grid-template-columns: 1fr; }
+    .startups__head { flex-direction: column; align-items: flex-start; }
+    .ctastrip__inner { padding: 50px 28px; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav__brand">
+    <img src="assets/mbrif-logo.png" alt="MBRIF" style="height: 91px" />
+    <span class="nav__divider"></span>
+    <span class="nav__cohort">
+      <img src="assets/cohort-11-logo.png" alt="Cohort 11" style="height: 89px" />
+      <span class="nav__cohort-text">
+        <strong style="font-size: 13px">Demo Day</strong>
+        <span style="font-size: 13px">Cohort 11 · 09 May 2026</span>
+      </span>
+    </span>
+  </a>
+  <div class="nav__links">
+    <a href="index.html" class="is-active">Overview</a>
+    <a href="index.html#impact">Impact</a>
+    <a href="index.html#startups">Startups</a>
+    <a href="agenda.html">Agenda</a>
+  </div>
+</nav>
+
+<!-- ========= HERO ========= -->
+<header class="hero" data-spotlight>
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero__vignette"></div>
+
+  <div class="hero__inner wrap">
+    <div class="hero__grid">
+      <div>
+        <div class="chip" data-reveal><span class="chip__dot"></span>09 May 2026 · Palace Downtown · Dubai</div>
+        <h1>
+          <span class="line"><span>The future,</span></span>
+          <span class="line"><span><em style="font-style: italic; font-weight: 500;" class="gradient-text">made here.</em></span></span>
+          <span class="line"><span>Cohort 11.</span></span>
+        </h1>
+        <p class="hero__sub" data-reveal data-reveal-delay="2">
+          Twenty innovative founders step onto one stage, unveiling their products, breakthroughs, and businesses that will shape the next decade.
+        </p>
+        <div class="hero__meta" data-reveal data-reveal-delay="3">
+          <div class="hero__meta-item">
+            <span class="hero__meta-label">Date</span>
+            <span class="hero__meta-value">09 May 2026</span>
+          </div>
+          <div class="hero__meta-item">
+            <span class="hero__meta-label">Venue</span>
+            <span class="hero__meta-value">Palace Downtown</span>
+          </div>
+          <div class="hero__meta-item">
+            <span class="hero__meta-label">City</span>
+            <span class="hero__meta-value">Dubai, UAE</span>
+          </div>
+          <div class="hero__meta-item">
+            <span class="hero__meta-label">Doors</span>
+            <span class="hero__meta-value">09:00 AM</span>
+          </div>
+        </div>
+        <div class="hero__ctas" data-reveal data-reveal-delay="4">
+          <a href="agenda.html" class="btn btn--primary">
+            View the agenda
+            <svg class="btn__arrow" width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#startups" class="btn btn--ghost">
+            Meet the cohort
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__visual" data-reveal data-reveal-delay="2" data-tilt>
+        <div data-tilt-glow style="position:absolute; inset:0; pointer-events:none;"></div>
+        <div style="display:flex; align-items:center; justify-content:space-between;">
+          <span class="chip"><span class="chip__dot"></span>LIVE</span>
+          <span style="font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-300);">
+</span>
+        </div>
+        <div class="hero__visual-logo">
+          <img src="assets/cohort-11-logo.png" alt="Cohort 11" />
+        </div>
+        <div class="hero__visual-caption">
+          <div>
+            <h3>Demo Day<br/>Cohort 11</h3>
+          </div>
+          <div class="hero__visual-badge" style="border-width: 0px; background: transparent;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ========= MARQUEE ========= -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track" id="marquee-track"></div>
+</div>
+
+<!-- ========= IMPACT ========= -->
+<section class="impact" id="impact">
+  <div class="wrap">
+    <div class="impact__head">
+      <div data-reveal>
+        <span class="eyebrow">Our impact · Cohort 11</span>
+        <h2 class="impact__title">20 Startups.<br/>One mission:<br/><span class="gradient-text">build the future.</span></h2>
+      </div>
+      <div data-reveal data-reveal-delay="2">
+        <p class="impact__desc">
+          Since 2018, MBRIF has backed founders building technologies that the region and the world will rely on.
+          From climate to AI, fintech to health, each cohort raises the bar for what's possible.
+        </p>
+      </div>
+    </div>
+
+    <div class="impact__grid">
+      <div class="stat" data-reveal>
+        <div class="stat__icon" style="border-width: 0px"></div>
+        <div class="stat__num"><span data-count="20">0</span></div>
+        <div class="stat__label">Innovative Startups</div>
+      </div>
+      <div class="stat" data-reveal data-reveal-delay="1">
+        <div class="stat__icon" style="border-width: 0px"></div>
+        <div class="stat__num"><span data-count="100">0</span></div>
+        <div class="stat__label">Workshops and Pitch Rehearsals</div>
+      </div>
+      <div class="stat" data-reveal data-reveal-delay="2">
+        <div class="stat__icon" style="border-width: 0px"></div>
+        <div class="stat__num"><span data-count="42">0</span></div>
+        <div class="stat__label">Sessions</div>
+      </div>
+      <div class="stat" data-reveal data-reveal-delay="3">
+        <div class="stat__icon" style="border-width: 0px"></div>
+        <div class="stat__num"><span data-count="95" data-suffix="%">0</span></div>
+        <div class="stat__label">Satisfaction Rate</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========= STARTUPS ========= -->
+<section class="startups" id="startups">
+  <div class="wrap">
+    <div class="startups__head">
+      <div data-reveal>
+        <span class="eyebrow">Cohort 11 · Class of 2026</span>
+        <h2 class="startups__title">Meet the twenty<br/>teams pitching tonight.</h2>
+      </div>
+      <span class="startups__counter" data-reveal data-reveal-delay="2"><strong>20</strong> startups · <strong>9</strong> industries</span>
+    </div>
+
+    <div class="startups__grid" id="startups-grid"></div>
+  </div>
+</section>
+
+<!-- ========= CTA STRIP ========= -->
+<section class="ctastrip">
+  <div class="wrap">
+    <div class="ctastrip__inner" data-reveal>
+      <div class="ctastrip__content">
+        <span class="eyebrow">Plan your evening</span>
+        <h2>The full schedule, from doors open to closing remarks.</h2>
+        <p>Pitch sessions, keynote conversations, and one-on-one founder meetings — laid out hour by hour so you can plan around the founders you want to meet.</p>
+        <a href="agenda.html" class="btn btn--primary">
+          View the agenda
+          <svg class="btn__arrow" width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========= FOOTER ========= -->
+<footer class="footer" id="footer">
+  <div class="footer__inner">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="assets/mbrif-logo.png" alt="MBRIF" />
+        <p>The Mohammed Bin Rashid Innovation Fund supports founders building transformative technology from the UAE for the world.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Event</h4>
+        <ul>
+          <li><a href="index.html">Overview</a></li>
+          <li><a href="index.html#impact">Our impact</a></li>
+          <li><a href="index.html#startups">Startups</a></li>
+          <li><a href="agenda.html">Agenda</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>MBRIF</h4>
+        <ul>
+          <li><a href="https://mbrif.ae/" target="_blank" rel="noopener">mbrif.ae</a></li>
+          <li><a href="mailto:ia@mbrinnovationfund.ae">ia@mbrinnovationfund.ae</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="https://www.linkedin.com/company/mbrif" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.instagram.com/mbrifund" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Mohammed Bin Rashid Innovation Fund · All rights reserved</span>
+      <div class="footer__socials">
+        <a href="https://www.linkedin.com/company/mbrif" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.95v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM7.11 20.45H3.56V9h3.55v11.45zM22.22 0H1.78C.8 0 0 .78 0 1.74v20.52C0 23.22.8 24 1.78 24h20.44c.98 0 1.78-.78 1.78-1.74V1.74C24 .78 23.2 0 22.22 0z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/mbrifund" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23a3.7 3.7 0 01-.9 1.38c-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 01-1.38-.9 3.7 3.7 0 01-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63a5.9 5.9 0 00-2.13 1.39A5.9 5.9 0 00.62 4.14C.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.73 1.46 1.39 2.13a5.9 5.9 0 002.13 1.39c.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56a5.9 5.9 0 002.13-1.39 5.9 5.9 0 001.39-2.13c.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91a5.9 5.9 0 00-1.39-2.13A5.9 5.9 0 0019.86.62C19.1.33 18.22.13 16.95.07 15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 100 12.32 6.16 6.16 0 000-12.32zm0 10.16a4 4 0 110-8 4 4 0 010 8zm6.41-11.85a1.44 1.44 0 100 2.88 1.44 1.44 0 000-2.88z"/></svg>
+        </a>
+        <a href="https://mbrif.ae/" target="_blank" rel="noopener" aria-label="Website">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
+        </a>
+        <a href="mailto:ia@mbrinnovationfund.ae" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/startups.js"></script>
+<script src="assets/site.js"></script>
+<script>
+  // Render startup cards
+  (function () {
+    const grid = document.getElementById('startups-grid');
+    if (!grid) return;
+    const html = window.STARTUPS.map((s, i) => {
+      const initial = s.name.replace(/[^A-Za-z]/g, '').slice(0, 2).toUpperCase();
+      const delay = (i % 6) + 1;
+      const logoHtml = s.logo
+        ? `<img src="${s.logo}" alt="${s.name}" style="width:100%;height:100%;object-fit:contain;border-radius:14px;">`
+        : initial;
+      return `
+      <a href="startup.html?id=${s.id}" class="card" data-tilt data-reveal data-reveal-delay="${delay}" style="--card-accent:${s.accent}">
+        <div class="card__glow" data-tilt-glow></div>
+        <div class="card__head">
+          <div class="card__logo" style="${s.logo ? 'background:var(--navy-800);' : ''}">${logoHtml}</div>
+          <span class="card__tag">${s.industry}</span>
+        </div>
+        <h3 class="card__title">${s.name}</h3>
+        <p class="card__tagline">${s.tagline}</p>
+        <div class="card__foot">
+          <span class="card__stage">${s.stage}</span>
+          <span class="card__arrow">
+            <svg viewBox="0 0 14 14" fill="none"><path d="M3 11L11 3M11 3H5M11 3V9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+        </div>
+      </a>`;
+    }).join('');
+    grid.innerHTML = html;
+
+    // Initialize tilt/reveal on dynamically added cards
+    document.querySelectorAll('#startups-grid [data-reveal]').forEach((el) => {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('is-in');
+            io.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.1 });
+      io.observe(el);
+    });
+    document.querySelectorAll('#startups-grid [data-tilt]').forEach((card) => {
+      card.addEventListener('mousemove', (e) => {
+        const r = card.getBoundingClientRect();
+        const px = (e.clientX - r.left) / r.width - 0.5;
+        const py = (e.clientY - r.top) / r.height - 0.5;
+        card.style.transform = `perspective(900px) rotateX(${-py * 5}deg) rotateY(${px * 5}deg) translateY(-4px)`;
+        const glow = card.querySelector('[data-tilt-glow]');
+        if (glow) glow.style.background = `radial-gradient(circle at ${(px + 0.5) * 100}% ${(py + 0.5) * 100}%, rgba(255,255,255,0.15), transparent 50%)`;
+      });
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = '';
+        const glow = card.querySelector('[data-tilt-glow]');
+        if (glow) glow.style.background = '';
+      });
+    });
+
+    // Marquee track from startup names
+    const track = document.getElementById('marquee-track');
+    if (track) {
+      const labels = window.STARTUPS.map((s) => s.name);
+      const items = labels.concat(labels).map((l) => `<span class="marquee__item">${l}</span>`).join('');
+      track.innerHTML = items;
+    }
+
+    // Countdown badge
+    const target = new Date('2026-05-09T16:00:00+04:00');
+    const badge = document.querySelector('.hero__visual-badge strong');
+    function tick() {
+      if (!badge) return;
+      const now = new Date();
+      const diff = target - now;
+      if (diff <= 0) { badge.textContent = 'LIVE'; return; }
+      const d = Math.floor(diff / 86400000);
+      const h = Math.floor((diff % 86400000) / 3600000);
+      const m = Math.floor((diff % 3600000) / 60000);
+      badge.textContent = `${d}d ${h}h ${m}m`;
+    }
+    tick();
+    setInterval(tick, 30000);
+  })();
+</script>
+
+</body>
+</html>
