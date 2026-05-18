@@ -40,7 +40,7 @@ window.STARTUPS = [
       { label: "Hiring & marketing", pct: 20 }
     ],
     team: [
-      { name: "Abdel Jawhar", role: "Co-Founder & CEO", linkedin: "#" },
+      { name: "Abdel Jawhar", role: "Co-Founder & CEO", linkedin: "#", photo: "assets/team/abdel-jawhar.png" },
       { name: "Hadi Boustani", role: "Co-Founder & CTO", linkedin: "#" },
       { name: "Omar Zanhour", role: "Co-Founder", linkedin: "#" }
     ]
@@ -87,9 +87,9 @@ window.STARTUPS = [
       { label: "Legal", pct: 5 }
     ],
     team: [
-      { name: "Bhuvan Batra", role: "Co-Founder", linkedin: "#" },
-      { name: "Harsh Ajmera", role: "Co-Founder & CTO", linkedin: "#" },
-      { name: "Faheem Naser", role: "Co-Founder & CPO", linkedin: "#" }
+      { name: "Bhuvan Batra", role: "Co-Founder", linkedin: "#", photo: "assets/team/bhuvan-batra.png" },
+      { name: "Harsh Ajmera", role: "Co-Founder & CTO", linkedin: "#", photo: "assets/team/harsh-ajmera.png" },
+      { name: "Faheem Naser", role: "Co-Founder & CPO", linkedin: "#", photo: "assets/team/faheem-naser.png" }
     ]
   },
   {
@@ -134,7 +134,7 @@ window.STARTUPS = [
       { label: "Commercial launch", pct: 15 }
     ],
     team: [
-      { name: "Louis-Philippe Noël", role: "Co-Founder & CEO", linkedin: "#" }
+      { name: "Louis-Philippe Noël", role: "Co-Founder & CEO", linkedin: "#", photo: "assets/team/louis-philippe-noel.png" }
     ]
   },
   {
@@ -175,9 +175,9 @@ window.STARTUPS = [
       { label: "Marketing", pct: 9 }
     ],
     team: [
-      { name: "Marco Banfi", role: "Co-Founder", linkedin: "#" },
-      { name: "Antoine Bruna", role: "Co-Founder", linkedin: "#" },
-      { name: "Anvita Varshney", role: "Co-Founder", linkedin: "#" }
+      { name: "Marco Banfi", role: "Co-Founder", linkedin: "#", photo: "assets/team/marco-banfi.png" },
+      { name: "Antoine Bruna", role: "Co-Founder", linkedin: "#", photo: "assets/team/antoine-bruna.png" },
+      { name: "Anvita Varshney", role: "Co-Founder", linkedin: "#", photo: "assets/team/anvita-varshney.png" }
     ]
   },
   {
@@ -218,8 +218,8 @@ window.STARTUPS = [
       { label: "Next-generation products & tools", pct: 40 }
     ],
     team: [
-      { name: "Suat Ozkan", role: "Co-Founder", linkedin: "#" },
-      { name: "Hasret Ozkan", role: "Co-Founder", linkedin: "#" }
+      { name: "Suat Ozkan", role: "Co-Founder", linkedin: "#", photo: "assets/team/suat-ozkan.png" },
+      { name: "Hasret Ozkan", role: "Co-Founder", linkedin: "#", photo: "assets/team/hasret-ozkan.png" }
     ]
   },
   {
@@ -260,7 +260,7 @@ window.STARTUPS = [
       { label: "International scaling", pct: 20 }
     ],
     team: [
-      { name: "Ayaan Ali", role: "Co-Founder", linkedin: "#" }
+      { name: "Ayaan Ali", role: "Co-Founder", linkedin: "#", photo: "assets/team/ayaan-ali.png" }
     ]
   },
   {
@@ -302,7 +302,7 @@ window.STARTUPS = [
       { label: "Cashflow", pct: 20 }
     ],
     team: [
-      { name: "Asim Sajwani", role: "Co-Founder & CEO", linkedin: "#" }
+      { name: "Asim Sajwani", role: "Co-Founder & CEO", linkedin: "#", photo: "assets/team/asim-sajwani.png" }
     ]
   },
   {
@@ -345,8 +345,8 @@ window.STARTUPS = [
       { label: "Product development & operations", pct: 100 }
     ],
     team: [
-      { name: "Mahmoud Suliman", role: "Co-Founder & CEO", linkedin: "#" },
-      { name: "Sreecharan Malee", role: "Co-Founder & CTO", linkedin: "#" }
+      { name: "Mahmoud Suliman", role: "Co-Founder & CEO", linkedin: "#", photo: "assets/team/mahmoud-suliman.png" },
+      { name: "Sreecharan Malee", role: "Co-Founder & CTO", linkedin: "#", photo: "assets/team/sreecharan-malee.png" }
     ]
   },
   {
@@ -389,9 +389,9 @@ window.STARTUPS = [
       { label: "Reduce cost of goods", pct: 25 }
     ],
     team: [
-      { name: "Zeid Sinokrot", role: "Co-Founder", linkedin: "#" },
+      { name: "Zeid Sinokrot", role: "Co-Founder", linkedin: "#", photo: "assets/team/zeid-sinokrot.png" },
       { name: "Bashar Ahmad", role: "Co-Founder & CTO", linkedin: "#" },
-      { name: "Gabriella Hanna", role: "Business Development", linkedin: "#" }
+      { name: "Gabriella Hanna", role: "Business Development", linkedin: "#", photo: "assets/team/gabriella-hanna.png" }
     ]
   },
   {
@@ -436,7 +436,7 @@ window.STARTUPS = [
       { label: "Hiring & tech support", pct: 10 }
     ],
     team: [
-      { name: "Mahra Al Hosani", role: "Co-Founder & CEO", linkedin: "#" }
+      { name: "Mahra Al Hosani", role: "Co-Founder & CEO", linkedin: "#", photo: "assets/team/mahra-al-hosani.png" }
     ]
   },
   {
@@ -480,8 +480,8 @@ window.STARTUPS = [
       { label: "Operations & hiring", pct: 20 }
     ],
     team: [
-      { name: "Ryan Adams", role: "Founder & CEO", linkedin: "#" },
-      { name: "Megan Adams", role: "Co-Founder", linkedin: "#" }
+      { name: "Ryan Adams", role: "Founder & CEO", linkedin: "#", photo: "assets/team/ryan-adams.png" },
+      { name: "Megan Adams", role: "Co-Founder", linkedin: "#", photo: "assets/team/megan-adams.png" }
     ]
   },
   {
@@ -524,8 +524,8 @@ window.STARTUPS = [
       { label: "Operations", pct: 15 }
     ],
     team: [
-      { name: "Ahmed Alqubaisi", role: "Co-Founder & CEO", linkedin: "#" },
-      { name: "Zaka Jibran", role: "CDO", linkedin: "#" }
+      { name: "Ahmed Alqubaisi", role: "Co-Founder & CEO", linkedin: "#", photo: "assets/team/ahmed-alqubaisi.png" },
+      { name: "Zaka Jibran", role: "CDO", linkedin: "#", photo: "assets/team/zaka-jibran.png" }
     ]
   },
   {
@@ -566,9 +566,9 @@ window.STARTUPS = [
       { label: "Procurement — global sourcing at scale", pct: 25 }
     ],
     team: [
-      { name: "Jamie Poole", role: "Co-Founder & CEO", linkedin: "#" },
-      { name: "Dan Poole", role: "Co-Founder", linkedin: "#" },
-      { name: "Chirag Parmar", role: "Co-Founder", linkedin: "#" }
+      { name: "Jamie Poole", role: "Co-Founder & CEO", linkedin: "#", photo: "assets/team/jamie-poole.png" },
+      { name: "Dan Poole", role: "Co-Founder", linkedin: "#", photo: "assets/team/dan-poole.png" },
+      { name: "Chirag Parmar", role: "Co-Founder", linkedin: "#", photo: "assets/team/chirag-parmar.png" }
     ]
   },
   {
@@ -610,8 +610,8 @@ window.STARTUPS = [
       { label: "Commercial & expansion", pct: 20 }
     ],
     team: [
-      { name: "Billel Boudouma", role: "Co-Founder & CEO", linkedin: "#" },
-      { name: "Mohamed Ali", role: "Co-Founder & CCO", linkedin: "#" },
+      { name: "Billel Boudouma", role: "Co-Founder & CEO", linkedin: "#", photo: "assets/team/billel-boudouma.png" },
+      { name: "Mohamed Ali", role: "Co-Founder & CCO", linkedin: "#", photo: "assets/team/mohamed-ali.png" },
       { name: "Zoubir Ameur", role: "Co-Founder & CTO", linkedin: "#" }
     ]
   },
@@ -654,8 +654,8 @@ window.STARTUPS = [
       { label: "Localization", pct: 40 }
     ],
     team: [
-      { name: "Yumi Lee", role: "Co-Founder & CEO", linkedin: "#" },
-      { name: "Jaeheon Jung", role: "Co-Founder & CEO", linkedin: "#" }
+      { name: "Yumi Lee", role: "Co-Founder & CEO", linkedin: "#", photo: "assets/team/yumi-lee.png" },
+      { name: "Jaeheon Jung", role: "Co-Founder & CEO", linkedin: "#", photo: "assets/team/jaeheon-jung.png" }
     ]
   },
   {
@@ -696,9 +696,9 @@ window.STARTUPS = [
       { label: "Product — platform enhancement", pct: 15 }
     ],
     team: [
-      { name: "Aslam Sherieff", role: "Co-Founder & CEO", linkedin: "#" },
-      { name: "Swaminathan Ganesan", role: "Co-Founder & CEO", linkedin: "#" },
-      { name: "Kannan Ganesan", role: "Co-Founder & CTO", linkedin: "#" }
+      { name: "Aslam Sherieff", role: "Co-Founder & CEO", linkedin: "#", photo: "assets/team/aslam-sherieff.png" },
+      { name: "Swaminathan Ganesan", role: "Co-Founder & CEO", linkedin: "#", photo: "assets/team/swaminathan-ganesan.png" },
+      { name: "Kannan Ganesan", role: "Co-Founder & CTO", linkedin: "#", photo: "assets/team/kannan-ganesan.png" }
     ]
   },
   {
@@ -741,8 +741,8 @@ window.STARTUPS = [
       { label: "R&D", pct: 40 }
     ],
     team: [
-      { name: "Jay Oberai", role: "Co-Founder & CEO", linkedin: "#" },
-      { name: "Vipin Rathi", role: "Co-Founder & CTO", linkedin: "#" }
+      { name: "Jay Oberai", role: "Co-Founder & CEO", linkedin: "#", photo: "assets/team/jay-oberai.png" },
+      { name: "Vipin Rathi", role: "Co-Founder & CTO", linkedin: "#", photo: "assets/team/vipin-rathi.png" }
     ]
   },
   {
@@ -785,8 +785,8 @@ window.STARTUPS = [
       { label: "Manufacturing & scaling", pct: 20 }
     ],
     team: [
-      { name: "Mohammed Raiyan", role: "Co-Founder", linkedin: "#" },
-      { name: "Marvin Recto", role: "Co-Founder", linkedin: "#" }
+      { name: "Mohammed Raiyan", role: "Co-Founder", linkedin: "#", photo: "assets/team/mohammed-raiyan.png" },
+      { name: "Marvin Recto", role: "Co-Founder", linkedin: "#", photo: "assets/team/marvin-recto.png" }
     ]
   },
   {
@@ -828,7 +828,7 @@ window.STARTUPS = [
       { label: "Operations", pct: 20 }
     ],
     team: [
-      { name: "Alnawazkhan Ayubkhan", role: "Co-Founder", linkedin: "#" }
+      { name: "Alnawazkhan Ayubkhan", role: "Co-Founder", linkedin: "#", photo: "assets/team/alnawazkhan-ayubkhan.png" }
     ]
   },
   {
@@ -872,8 +872,8 @@ window.STARTUPS = [
       { label: "Legal / licenses", pct: 10 }
     ],
     team: [
-      { name: "Sary Azakir", role: "Co-Founder", linkedin: "#" },
-      { name: "Wael Bizri", role: "Co-Founder", linkedin: "#" }
+      { name: "Sary Azakir", role: "Co-Founder", linkedin: "#", photo: "assets/team/sary-azakir.png" },
+      { name: "Wael Bizri", role: "Co-Founder", linkedin: "#", photo: "assets/team/wael-bizri.png" }
     ]
   }
 ];

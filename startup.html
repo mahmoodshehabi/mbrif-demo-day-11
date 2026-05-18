@@ -514,13 +514,17 @@
     // Team
     document.getElementById('sp-team').innerHTML = (s.team || []).map(t => {
       const i = t.name.split(' ').map(w => w[0]).slice(0, 2).join('');
+      const avatarContent = t.photo
+        ? `<img src="${t.photo}" alt="${t.name}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">`
+        : i;
+      const avatarStyle = t.photo ? 'background:var(--navy-800);overflow:hidden;' : '';
       return `
         <div class="sp-team__card">
-          <div class="sp-team__avatar">${i}</div>
+          <div class="sp-team__avatar" style="${avatarStyle}">${avatarContent}</div>
           <div class="sp-team__info">
             <span class="sp-team__name">${t.name}</span>
             <span class="sp-team__role">${t.role}</span>
-            ${t.linkedin ? `<a class="sp-team__linkedin" href="${t.linkedin}" target="_blank" rel="noopener">LinkedIn ↗</a>` : ''}
+            ${t.linkedin && t.linkedin !== '#' ? `<a class="sp-team__linkedin" href="${t.linkedin}" target="_blank" rel="noopener">LinkedIn ↗</a>` : ''}
           </div>
         </div>
       `;
