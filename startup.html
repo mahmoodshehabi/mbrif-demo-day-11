@@ -517,7 +517,7 @@
       const avatarContent = t.photo
         ? `<img src="${t.photo}" alt="${t.name}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">`
         : i;
-      const avatarStyle = t.photo ? 'background:var(--navy-800);overflow:hidden;' : '';
+      const avatarStyle = t.photo ? 'background:white;overflow:hidden;' : '';
       return `
         <div class="sp-team__card">
           <div class="sp-team__avatar" style="${avatarStyle}">${avatarContent}</div>
