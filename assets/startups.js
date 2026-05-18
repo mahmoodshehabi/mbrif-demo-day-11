@@ -41,8 +41,8 @@ window.STARTUPS = [
     ],
     team: [
       { name: "Abdel Jawhar", role: "Co-Founder & CEO", linkedin: "#", photo: "assets/team/abdel-jawhar.png" },
-      { name: "Hadi Boustani", role: "Co-Founder & CTO", linkedin: "#" },
-      { name: "Omar Zanhour", role: "Co-Founder", linkedin: "#" }
+      { name: "Hadi Boustani", role: "Co-Founder & CTO", linkedin: "#", photo: "assets/team/hadi-boustani.png" },
+      { name: "Omar Zanhour", role: "Co-Founder", linkedin: "#", photo: "assets/team/omar-zanhour.png" }
     ]
   },
   {
@@ -390,7 +390,7 @@ window.STARTUPS = [
     ],
     team: [
       { name: "Zeid Sinokrot", role: "Co-Founder", linkedin: "#", photo: "assets/team/zeid-sinokrot.png" },
-      { name: "Bashar Ahmad", role: "Co-Founder & CTO", linkedin: "#" },
+      { name: "Bashar Ahmad", role: "Co-Founder & CTO", linkedin: "#", photo: "assets/team/bashar-ahmad.png" },
       { name: "Gabriella Hanna", role: "Business Development", linkedin: "#", photo: "assets/team/gabriella-hanna.png" }
     ]
   },
@@ -612,7 +612,7 @@ window.STARTUPS = [
     team: [
       { name: "Billel Boudouma", role: "Co-Founder & CEO", linkedin: "#", photo: "assets/team/billel-boudouma.png" },
       { name: "Mohamed Ali", role: "Co-Founder & CCO", linkedin: "#", photo: "assets/team/mohamed-ali.png" },
-      { name: "Zoubir Ameur", role: "Co-Founder & CTO", linkedin: "#" }
+      { name: "Zoubir Ameur", role: "Co-Founder & CTO", linkedin: "#", photo: "assets/team/zoubir-ameur.png" }
     ]
   },
   {
