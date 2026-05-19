@@ -227,6 +227,22 @@
     border: 1px solid var(--line-strong);
   }
   .startups__counter strong { color: var(--cyan-400); font-weight: 500; }
+  .startups__filters {
+    display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 40px;
+  }
+  .filter-btn {
+    font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--ink-300);
+    padding: 8px 16px; border-radius: 999px;
+    border: 1px solid var(--line-strong);
+    background: transparent; cursor: pointer;
+    transition: all 0.2s;
+  }
+  .filter-btn:hover { color: var(--ink-100); border-color: rgba(255,255,255,0.2); }
+  .filter-btn.is-active {
+    color: var(--navy-950); background: var(--cyan-400);
+    border-color: var(--cyan-400);
+  }
   .startups__grid {
     display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px;
   }
@@ -502,6 +518,7 @@
       <span class="startups__counter" data-reveal data-reveal-delay="2"><strong>20</strong> startups · <strong>9</strong> industries</span>
     </div>
 
+    <div class="startups__filters" id="startups-filters"></div>
     <div class="startups__grid" id="startups-grid"></div>
   </div>
 </section>
@@ -589,7 +606,7 @@
         ? `<img src="${s.logo}" alt="${s.name}" style="width:100%;height:100%;object-fit:contain;border-radius:14px;">`
         : initial;
       return `
-      <a href="startup.html?id=${s.id}" class="card" data-tilt data-reveal data-reveal-delay="${delay}" style="--card-accent:${s.accent}">
+      <a href="startup.html?id=${s.id}" class="card" data-tilt data-reveal data-reveal-delay="${delay}" data-industry="${s.industry}" style="--card-accent:${s.accent}">
         <div class="card__glow" data-tilt-glow></div>
         <div class="card__head">
           <div class="card__logo" style="${s.logo ? 'background:var(--navy-800);' : ''}">${logoHtml}</div>
@@ -606,6 +623,38 @@
       </a>`;
     }).join('');
     grid.innerHTML = html;
+
+    // Industry filters
+    const filtersEl = document.getElementById('startups-filters');
+    const counter = document.querySelector('.startups__counter');
+    const industries = ['All', ...new Set(window.STARTUPS.map(s => s.industry))];
+    let activeFilter = 'All';
+
+    function renderFilters() {
+      filtersEl.innerHTML = industries.map(ind => `
+        <button class="filter-btn${ind === activeFilter ? ' is-active' : ''}" data-filter="${ind}">${ind}</button>
+      `).join('');
+      filtersEl.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          activeFilter = btn.dataset.filter;
+          applyFilter();
+          renderFilters();
+        });
+      });
+    }
+
+    function applyFilter() {
+      const cards = grid.querySelectorAll('.card');
+      let visible = 0;
+      cards.forEach(card => {
+        const show = activeFilter === 'All' || card.dataset.industry === activeFilter;
+        card.style.display = show ? '' : 'none';
+        if (show) visible++;
+      });
+      if (counter) counter.innerHTML = `<strong>${visible}</strong> startups · <strong>9</strong> industries`;
+    }
+
+    renderFilters();
 
     // Initialize tilt/reveal on dynamically added cards
     document.querySelectorAll('#startups-grid [data-reveal]').forEach((el) => {
