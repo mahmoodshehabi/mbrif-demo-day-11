@@ -590,7 +590,7 @@
     const filtersEl = document.getElementById('startups-filters');
     const counter = document.querySelector('.startups__counter');
     const industries = ['All', ...[...new Set(
-      window.STARTUPS.flatMap(s => s.industry === 'Fintech · LegalTech' ? ['Fintech', 'LegalTech'] : [s.industry])
+      window.STARTUPS.flatMap(s => s.industry === 'Fintech · LegalTech' ? ['Fintech', 'LegalTech'] : s.industry === 'Deeptech · Robotics' ? ['Deeptech', 'Robotics'] : [s.industry])
     )].sort()];
     let activeFilter = 'All';
 
