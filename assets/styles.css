@@ -44,7 +44,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 .nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 50;
   display: flex; align-items: center; justify-content: space-between;
-  padding: 18px 40px;
+  padding: 22px 40px;
   backdrop-filter: blur(14px) saturate(150%);
   -webkit-backdrop-filter: blur(14px) saturate(150%);
   background: linear-gradient(180deg, rgba(5,11,36,0.78), rgba(5,11,36,0.35));
@@ -52,10 +52,10 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   transition: background 0.3s ease;
 }
 .nav__brand { display: flex; align-items: center; gap: 14px; }
-.nav__brand img { height: 36px; width: auto; }
-.nav__divider { width: 1px; height: 28px; background: var(--line-strong); }
+.nav__brand img { height: 46px; width: auto; }
+.nav__divider { width: 1px; height: 36px; background: var(--line-strong); }
 .nav__cohort { display: flex; align-items: center; gap: 10px; }
-.nav__cohort img { height: 30px; width: auto; }
+.nav__cohort img { height: 38px; width: auto; }
 .nav__cohort-text {
   display: flex; flex-direction: column; line-height: 1.1;
   font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.14em;
