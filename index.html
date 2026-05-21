@@ -589,7 +589,7 @@
     // Industry filters
     const filtersEl = document.getElementById('startups-filters');
     const counter = document.querySelector('.startups__counter');
-    const industries = ['All', ...new Set(window.STARTUPS.map(s => s.industry))];
+    const industries = ['All', ...[...new Set(window.STARTUPS.map(s => s.industry))].sort()];
     let activeFilter = 'All';
 
     function renderFilters() {
