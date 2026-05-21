@@ -589,7 +589,9 @@
     // Industry filters
     const filtersEl = document.getElementById('startups-filters');
     const counter = document.querySelector('.startups__counter');
-    const industries = ['All', ...[...new Set(window.STARTUPS.map(s => s.industry))].sort()];
+    const industries = ['All', ...[...new Set(
+      window.STARTUPS.flatMap(s => s.industry === 'Fintech · LegalTech' ? ['Fintech', 'LegalTech'] : [s.industry])
+    )].sort()];
     let activeFilter = 'All';
 
     function renderFilters() {
@@ -609,7 +611,7 @@
       const cards = grid.querySelectorAll('.card');
       let visible = 0;
       cards.forEach(card => {
-        const show = activeFilter === 'All' || card.dataset.industry === activeFilter;
+        const show = activeFilter === 'All' || card.dataset.industry === activeFilter || card.dataset.industry.split(' · ').includes(activeFilter);
         card.style.display = show ? '' : 'none';
         if (show) visible++;
       });
