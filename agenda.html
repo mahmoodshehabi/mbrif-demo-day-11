@@ -128,6 +128,17 @@
     letter-spacing: -0.01em; margin: 0 0 8px; line-height: 1.25;
   }
   .session__desc { font-size: 14.5px; line-height: 1.55; color: var(--ink-300); margin: 0; max-width: 560px; }
+  .session__judges { margin-top: 12px; }
+  .session__judges-label {
+    font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--ink-500); margin-bottom: 8px;
+  }
+  .session__judges-list { display: flex; flex-wrap: wrap; gap: 8px; }
+  .session__judge {
+    font-size: 13px; color: var(--ink-100); font-weight: 500;
+    padding: 5px 12px; border-radius: 999px;
+    background: rgba(255,255,255,0.05); border: 1px solid var(--line-strong);
+  }
   .session__side {
     display: flex; flex-direction: column; gap: 6px; justify-content: center;
     align-items: flex-end; text-align: right;
@@ -354,12 +365,12 @@
       { time: "16:00", dur: "60 min", type: "Networking", track: "network", title: "Doors open · Welcome reception", desc: "Check-in, espresso bar, and intro mingling on the Lakefront Terrace before the program begins.", where: "Lakefront Terrace", accent: "#5ee7d0" },
       { time: "17:00", dur: "10 min", type: "Program", track: "program", title: "Opening remarks", desc: "An MBRIF welcome and a look back at the journey — ten years, eleven cohorts, one mission.", where: "Grand Ballroom", speakers: "MBRIF Leadership", accent: "#38c6ff" },
       { time: "17:15", dur: "15 min", type: "Keynote", track: "program", title: "Keynote: The decade ahead for innovation in the UAE", desc: "A wide-angle conversation on where the region's innovation engine is headed next.", where: "Grand Ballroom", speakers: "Guest of Honor", accent: "#38c6ff" },
-      { time: "17:30", dur: "50 min", type: "Pitch block 01", track: "pitch", title: "Pitches · 5 startups", desc: startups.slice(0, 5).join(" · "), where: "Grand Ballroom", accent: "#2e6bff" },
+      { time: "17:30", dur: "50 min", type: "Pitch block 01", track: "pitch", title: "Pitches · 5 startups", desc: startups.slice(0, 5).join(" · "), where: "Grand Ballroom", accent: "#2e6bff", judges: ["Judge Name", "Judge Name", "Judge Name"] },
       { time: "18:20", dur: "15 min", type: "Break", track: "network", title: "Interlude · Refreshments", desc: "Stretch, refill, and meet the founders from the first pitch block.", where: "Foyer", accent: "#7df3a8" },
-      { time: "18:35", dur: "50 min", type: "Pitch block 02", track: "pitch", title: "Pitches · 5 startups", desc: startups.slice(5, 10).join(" · "), where: "Grand Ballroom", accent: "#2e6bff" },
+      { time: "18:35", dur: "50 min", type: "Pitch block 02", track: "pitch", title: "Pitches · 5 startups", desc: startups.slice(5, 10).join(" · "), where: "Grand Ballroom", accent: "#2e6bff", judges: ["Judge Name", "Judge Name", "Judge Name"] },
       { time: "19:25", dur: "20 min", type: "Panel", track: "program", title: "Panel: Building defensible businesses from the UAE", desc: "Operators and investors on what it takes to build companies that scale beyond the region.", where: "Grand Ballroom", speakers: "Founder & investor panel", accent: "#38c6ff" },
-      { time: "19:45", dur: "50 min", type: "Pitch block 03", track: "pitch", title: "Pitches · 5 startups", desc: startups.slice(10, 15).join(" · "), where: "Grand Ballroom", accent: "#2e6bff" },
-      { time: "20:35", dur: "50 min", type: "Pitch block 04", track: "pitch", title: "Pitches · 5 startups", desc: startups.slice(15, 20).join(" · "), where: "Grand Ballroom", accent: "#2e6bff" },
+      { time: "19:45", dur: "50 min", type: "Pitch block 03", track: "pitch", title: "Pitches · 5 startups", desc: startups.slice(10, 15).join(" · "), where: "Grand Ballroom", accent: "#2e6bff", judges: ["Judge Name", "Judge Name", "Judge Name"] },
+      { time: "20:35", dur: "50 min", type: "Pitch block 04", track: "pitch", title: "Pitches · 5 startups", desc: startups.slice(15, 20).join(" · "), where: "Grand Ballroom", accent: "#2e6bff", judges: ["Judge Name", "Judge Name", "Judge Name"] },
       { time: "21:25", dur: "15 min", type: "Program", track: "program", title: "Closing remarks & cohort photo", desc: "A closing toast and a cohort photo on the main stage.", where: "Grand Ballroom", accent: "#38c6ff" },
       { time: "21:40", dur: "80 min", type: "Networking", track: "network", title: "Founder reception · Lakefront Terrace", desc: "An open-format reception. Every founder is reachable — book 1:1 meetings from each startup's page.", where: "Lakefront Terrace", accent: "#5ee7d0" },
     ];
@@ -374,6 +385,7 @@
         <div class="session__body">
           <span class="session__type">${s.type}</span>
           <h3 class="session__title">${s.title}</h3>
+          ${s.judges ? `<div class="session__judges"><div class="session__judges-label">Judges</div><div class="session__judges-list">${s.judges.map(j => `<span class="session__judge">${j}</span>`).join('')}</div></div>` : ''}
         </div>
         <div class="session__side">
 
