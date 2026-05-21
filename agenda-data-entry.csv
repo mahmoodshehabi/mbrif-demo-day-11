@@ -1,12 +1,12 @@
-time,duration,type,title,description
-16:00,60 min,Networking,Doors open · Welcome reception,"Check-in, espresso bar, and intro mingling on the Lakefront Terrace before the program begins."
-17:00,10 min,Program,Opening remarks,"An MBRIF welcome and a look back at the journey — ten years, eleven cohorts, one mission."
-17:15,15 min,Keynote,Keynote: The decade ahead for innovation in the UAE,"A wide-angle conversation on where the region's innovation engine is headed next."
-17:30,50 min,Pitch block 01,Pitches · 5 startups,"AkelTech · Bellboy · BioTwin · CapQuest · Defy"
-18:20,15 min,Break,Interlude · Refreshments,"Stretch, refill, and meet the founders from the first pitch block."
-18:35,50 min,Pitch block 02,Pitches · 5 startups,"Digitech Oasis · Disrupt-X · Neulink · Palmear · Pharmedic"
-19:25,20 min,Panel,Panel: Building defensible businesses from the UAE,"Operators and investors on what it takes to build companies that scale beyond the region."
-19:45,50 min,Pitch block 03,Pitches · 5 startups,"Professional.me · Qode · ReflowX · Robox · SLZ"
-20:35,50 min,Pitch block 04,Pitches · 5 startups,"Smartail · Synergy Quantum · Terra Grow · Third Body Dynamics · Toothpick"
-21:25,15 min,Program,Closing remarks & cohort photo,"A closing toast and a cohort photo on the main stage."
-21:40,80 min,Networking,Founder reception · Lakefront Terrace,"An open-format reception. Every founder is reachable — book 1:1 meetings from each startup's page."
+time,duration,type,title,judge_1,judge_2,judge_3
+16:00,60 min,Networking,Doors open · Welcome reception,,,
+17:00,10 min,Program,Opening remarks,,,
+17:15,15 min,Keynote,Keynote: The decade ahead for innovation in the UAE,,,
+17:30,50 min,Pitch block 01,Pitches · 5 startups,Judge Name,Judge Name,Judge Name
+18:20,15 min,Break,Interlude · Refreshments,,,
+18:35,50 min,Pitch block 02,Pitches · 5 startups,Judge Name,Judge Name,Judge Name
+19:25,20 min,Panel,Panel: Building defensible businesses from the UAE,,,
+19:45,50 min,Pitch block 03,Pitches · 5 startups,Judge Name,Judge Name,Judge Name
+20:35,50 min,Pitch block 04,Pitches · 5 startups,Judge Name,Judge Name,Judge Name
+21:25,15 min,Program,Closing remarks & cohort photo,,,
+21:40,80 min,Networking,Founder reception · Lakefront Terrace,,,
