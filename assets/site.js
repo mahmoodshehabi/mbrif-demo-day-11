@@ -195,5 +195,23 @@
       window.addEventListener('scroll', onScroll, { passive: true });
       onScroll();
     }
+
+    // Hamburger menu
+    const hamburger = document.querySelector('.nav__hamburger');
+    const mobileMenu = document.querySelector('.nav__mobile-menu');
+    if (hamburger && mobileMenu) {
+      hamburger.addEventListener('click', () => {
+        const open = hamburger.classList.toggle('is-open');
+        mobileMenu.classList.toggle('is-open', open);
+        document.body.style.overflow = open ? 'hidden' : '';
+      });
+      mobileMenu.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => {
+          hamburger.classList.remove('is-open');
+          mobileMenu.classList.remove('is-open');
+          document.body.style.overflow = '';
+        });
+      });
+    }
   });
 })();
