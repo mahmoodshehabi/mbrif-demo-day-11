@@ -357,17 +357,14 @@
   (function () {
     const startups = (window.STARTUPS || []).map(s => s.name);
     const sessions = [
-      { time: "16:00", dur: "60 min", type: "Networking", track: "network", title: "Doors open · Welcome reception", accent: "#5ee7d0" },
-      { time: "17:00", dur: "10 min", type: "Program", track: "program", title: "Opening remarks", accent: "#38c6ff" },
-      { time: "17:15", dur: "15 min", type: "Keynote", track: "program", title: "Keynote: The decade ahead for innovation in the UAE", accent: "#38c6ff" },
-      { time: "17:30", dur: "50 min", type: "Pitch block 01", track: "pitch", title: "Pitches · 5 startups", accent: "#2e6bff", judges: ["Judge Name", "Judge Name", "Judge Name"] },
-      { time: "18:20", dur: "15 min", type: "Break", track: "network", title: "Interlude · Refreshments", accent: "#7df3a8" },
-      { time: "18:35", dur: "50 min", type: "Pitch block 02", track: "pitch", title: "Pitches · 5 startups", accent: "#2e6bff", judges: ["Judge Name", "Judge Name", "Judge Name"] },
-      { time: "19:25", dur: "20 min", type: "Panel", track: "program", title: "Panel: Building defensible businesses from the UAE", accent: "#38c6ff" },
-      { time: "19:45", dur: "50 min", type: "Pitch block 03", track: "pitch", title: "Pitches · 5 startups", accent: "#2e6bff", judges: ["Judge Name", "Judge Name", "Judge Name"] },
-      { time: "20:35", dur: "50 min", type: "Pitch block 04", track: "pitch", title: "Pitches · 5 startups", accent: "#2e6bff", judges: ["Judge Name", "Judge Name", "Judge Name"] },
-      { time: "21:25", dur: "15 min", type: "Program", track: "program", title: "Closing remarks & cohort photo", accent: "#38c6ff" },
-      { time: "21:40", dur: "80 min", type: "Networking", track: "network", title: "Founder reception · Lakefront Terrace", accent: "#5ee7d0" },
+      { time: "10:00", dur: "30 min", type: "Networking", track: "network", title: "Guest Arrivals & VIP Welcome", accent: "#5ee7d0" },
+      { time: "10:30", dur: "20 min", type: "Program", track: "program", title: "Opening Remarks & Welcoming", accent: "#38c6ff" },
+      { time: "11:00", dur: "35 min", type: "Pitch block 01", track: "pitch", title: "Startups Pitching: Part 1", accent: "#2e6bff", judges: ["Judge Name", "Judge Name", "Judge Name"] },
+      { time: "11:35", dur: "10 min", type: "Networking", track: "network", title: "Coffee Break", accent: "#5ee7d0" },
+      { time: "11:45", dur: "40 min", type: "Pitch block 02", track: "pitch", title: "Startups Pitching: Part 2", accent: "#2e6bff", judges: ["Judge Name", "Judge Name", "Judge Name"] },
+      { time: "12:25", dur: "50 min", type: "Networking", track: "network", title: "Networking & Judges Deliberation", accent: "#5ee7d0" },
+      { time: "1:15", dur: "90 min", type: "Program", track: "program", title: "MC Closing & Founders Awards", accent: "#38c6ff" },
+      { time: "1:15", dur: "90 min", type: "Networking", track: "network", title: "Lunch & Networking", accent: "#5ee7d0" },
     ];
 
     const list = document.getElementById('agenda-list');
