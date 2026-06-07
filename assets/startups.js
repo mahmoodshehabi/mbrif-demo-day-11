@@ -12,7 +12,7 @@ window.STARTUPS = [
     domain: "AkelTech.com",
     logo: "assets/logos/akeltech.png",
     linkedin: "https://www.linkedin.com/company/akeltech/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "AkelTech is a fully integrated smart food platform delivering fresh, high-quality meals anywhere, anytime through AI-powered vending systems combining in-house food production, proprietary machine manufacturing, and intelligent operations.",
     valueBullets: [
       "Eliminates labor dependency and operational complexity through automated, end-to-end food retail infrastructure.",
@@ -57,7 +57,7 @@ window.STARTUPS = [
     domain: "bellboytech.com",
     logo: "assets/logos/bellboy.png",
     linkedin: "https://www.linkedin.com/company/bellboytech/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "Bellboy is a voice AI platform that enhances the hospitality experience by automating guest interactions and bookings through 24/7 multilingual support.",
     valueBullets: [
       "Provides 24/7 voice-based guest support in 60+ languages, improving accessibility and guest experience.",
@@ -104,7 +104,7 @@ window.STARTUPS = [
     domain: "biotwin.com",
     logo: "assets/logos/biotwin.png",
     linkedin: "https://www.linkedin.com/company/biotwinsolutions/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "BioTwin is a patient-centric virtual twin platform that builds a longitudinal biological profile for each patient using dried blood spot sampling and untargeted metabolomics — enabling early detection, continuous monitoring, and multi-condition clinical decision support.",
     valueBullets: [
       "Reduces diagnostic uncertainty through a provenance-auditable decision-support layer in clinical workflows.",
@@ -149,7 +149,7 @@ window.STARTUPS = [
     domain: "capquest.com",
     logo: "assets/logos/capquest.png",
     linkedin: "https://www.linkedin.com/company/capquest-io/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "CapQuest helps startups manage ownership with clarity and confidence — a single source of truth for equity, real-time insights for smarter fundraising decisions, and full transparency across all stakeholders.",
     valueBullets: [
       "Streamlines cap table management, equity allocation, and convertible tracking — providing a single source of truth for all ownership matters.",
@@ -192,7 +192,7 @@ window.STARTUPS = [
     domain: "Defy.com",
     logo: "assets/logos/defy.png",
     linkedin: "https://www.linkedin.com/company/getdefy/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "Defy delivers an AI-native compliance platform that enables banks, financial institutions and digital asset businesses to manage risk, AML, and regulatory operations more intelligently and efficiently.",
     valueBullets: [
       "Without replacing existing systems, Defy makes compliance and risk operations more automated, accurate, and scalable.",
@@ -234,7 +234,7 @@ window.STARTUPS = [
     domain: "digitechoasis.com",
     logo: "assets/logos/digitech-oasis.png",
     linkedin: "https://www.linkedin.com/company/digitech-oasis/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "Digitech Oasis delivers autonomous robotics and AI solutions that automate internal logistics, helping manufacturers and warehouses move goods with greater precision, efficiency, and lower-cost materials.",
     valueBullets: [
       "Combines fleet-level intelligence, real-time navigation, and autonomous energy management.",
@@ -275,7 +275,7 @@ window.STARTUPS = [
     domain: "disrupt-x.com",
     logo: "assets/logos/disrupt-x.png",
     linkedin: "https://www.linkedin.com/company/disruptxiot/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "Disrupt-X is an AI-driven platform that transforms buildings into intelligent, revenue-generating assets by centralizing property and facilities operations.",
     valueBullets: [
       "Unifies asset management, maintenance, digital twins, IoT monitoring, and workforce tracking through ALEF 360°, enabling optimized performance and reduced downtime.",
@@ -317,7 +317,7 @@ window.STARTUPS = [
     domain: "neulink.com",
     logo: "assets/logos/neulink.png",
     linkedin: "https://www.linkedin.com/company/neulink/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "Neulink is an AI-powered platform that enables pharmacies to streamline operations by integrating inventory management and insurance claims processing into a single, unified system.",
     valueBullets: [
       "Reduces operational costs by up to 40% through automation of inventory and claims workflows.",
@@ -361,7 +361,7 @@ window.STARTUPS = [
     domain: "palmear.com",
     logo: "assets/logos/palmear.png",
     linkedin: "https://www.linkedin.com/company/palmear/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "Palmear is a patented pest detection technology that uses bioacoustic AI to detect hidden vibrations in biological systems — such as palm trees.",
     valueBullets: [
       "Identifies infestations with 90% accuracy, allowing rapid, targeted action while reducing pesticide use by 40%.",
@@ -406,7 +406,7 @@ window.STARTUPS = [
     domain: "pharmedic.com",
     logo: "assets/logos/pharmedic.png",
     linkedin: "https://www.linkedin.com/company/pharmedic-ae/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "Pharmedic is a precision health platform that uses AI and genomic insights to personalize treatments, reduce adverse drug reactions, and optimize patient outcomes.",
     valueBullets: [
       "Reduces adverse drug reactions (ADRs), prescription errors, and polypharmacy risks through AI-driven insights.",
@@ -451,7 +451,7 @@ window.STARTUPS = [
     domain: "professional.me.com",
     logo: "assets/logos/professional-me.png",
     linkedin: "https://www.linkedin.com/company/meetprofessionalme/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "Professional.me is AI infrastructure for talent intelligence, helping organizations understand who thrives where and why — powering smarter decisions across hiring, retention, succession planning, internal mobility, learning and development, and workforce optimization.",
     valueBullets: [
       "MEg, an AI assistant inside WhatsApp, Slack, and Microsoft Teams, uses micro-LLM technology to evaluate capability rather than match keywords.",
@@ -496,7 +496,7 @@ window.STARTUPS = [
     domain: "Qode.com",
     logo: "assets/logos/qode.png",
     linkedin: "https://www.linkedin.com/company/qodehq/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "Qode provides a single unified platform that enables venues to carry out end-to-end digital enablement of their business — from customer experience to back-of-house operations and data-driven insights.",
     valueBullets: [
       "Provides digital transformation tools that reduce costs and boost operational efficiency.",
@@ -540,7 +540,7 @@ window.STARTUPS = [
     domain: "Reflowx.com",
     logo: "assets/logos/reflowx.png",
     linkedin: "https://www.linkedin.com/company/reflowx/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "ReflowX is a MENA-focused marketplace for surplus and salvage oil & gas equipment, enabling circular economy procurement across the energy sector.",
     valueBullets: [
       "Transforms dormant industrial assets into immediate capital while reducing procurement lead times and capital expenditure.",
@@ -583,7 +583,7 @@ window.STARTUPS = [
     domain: "Robox.com",
     logo: "assets/logos/robox.png",
     linkedin: "",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "Robox is a UAE-based deeptech company building intelligent, autonomous retail stores that combine robotics, AI, and retail automation to enable brands and venues to automate personalization and sales in physical spaces.",
     valueBullets: [
       "Delivers capex-free, AI-powered robotic installations deployable in under 72 hours through a Robotics-as-a-Service (RaaS) model.",
@@ -627,7 +627,7 @@ window.STARTUPS = [
     domain: "SLZ.com",
     logo: "assets/logos/slz.png",
     linkedin: "https://www.linkedin.com/company/slz-inc/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "SLZ develops AI-powered digital twin and AR/XR solutions that automate complex MEP design and construction workflows. Its technology significantly reduces design time and rework while enabling real-time, data-driven coordination across project teams.",
     valueBullets: [
       "AI-powered automated MEP route planning cuts design time.",
@@ -670,7 +670,7 @@ window.STARTUPS = [
     domain: "smartail.ai",
     logo: "assets/logos/smartail.png",
     linkedin: "https://www.linkedin.com/company/smartail/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "Smartail is a DeepTech company that developed DeepGrade, an AI platform that automates the grading of handwritten assessments while providing insights into student performance patterns.",
     valueBullets: [
       "Automates assessment and grading to reduce time, bias, and inefficiencies in traditional evaluation methods.",
@@ -713,7 +713,7 @@ window.STARTUPS = [
     domain: "synergyquantum.com",
     logo: "assets/logos/synergy-quantum.png",
     linkedin: "https://www.linkedin.com/company/synergyquantum/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "Operating at the convergence of AI, quantum disruption, and digital sovereignty, Synergy Quantum builds quantum-secure communications, post-quantum cryptography, and military-grade infrastructure to protect governments and critical industries.",
     valueBullets: [
       "Platform integrates discovery, cryptography, communications, and migration.",
@@ -757,7 +757,7 @@ window.STARTUPS = [
     domain: "terra-grow.com",
     logo: "assets/logos/terra-grow.png",
     linkedin: "https://www.linkedin.com/company/terragrow/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "Terra Grow offers AI-driven hydroponic systems that enable efficient, high-yield food production anywhere, reducing costs and improving sustainability.",
     valueBullets: [
       "Provides autonomous food infrastructure powered by Cognivue AI, combining IoT sensors and precision hydroponics to deliver fresh, high-yield produce anywhere — from urban rooftops to large-scale farms.",
@@ -801,7 +801,7 @@ window.STARTUPS = [
     domain: "TBD.com",
     logo: "assets/logos/third-body-dynamics.png",
     linkedin: "https://www.linkedin.com/company/third-body-dynamics/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "Third Body Dynamics develops modular, AI-powered satellite systems enabling faster and more accessible space missions.",
     valueBullets: [
       "Delivers AI-native, plug-and-play satellites with onboard autonomy and EO analytics, reducing costs and accelerating deployment from years to weeks.",
@@ -843,7 +843,7 @@ window.STARTUPS = [
     domain: "toothpick.com",
     logo: "assets/logos/toothpick.png",
     linkedin: "https://www.linkedin.com/company/toothpickapp/",
-    calendly: "https://calendly.com/mbrif-demoday",
+    calendly: "https://calendly.com/jghaoui-springco/meeting-with-startups",
     valueProp: "Toothpick is the operating system for out-of-pocket healthcare, connecting clinics, distributors, and financial institutions into one unified platform.",
     valueBullets: [
       "Powers healthcare transactions and operations by integrating procurement, financing, and clinic workflows into a single system.",
