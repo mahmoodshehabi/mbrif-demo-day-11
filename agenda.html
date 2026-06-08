@@ -162,6 +162,17 @@
     background: linear-gradient(180deg, var(--cyan-400), var(--teal-300));
     opacity: 0.6;
   }
+  .session__startups { margin-top: 12px; }
+  .session__startups-label {
+    font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--ink-500); margin-bottom: 8px;
+  }
+  .session__startups-list { display: flex; flex-wrap: wrap; gap: 8px; }
+  .session__startup-name {
+    font-size: 13px; color: var(--ink-100); font-weight: 500;
+    padding: 5px 12px; border-radius: 999px;
+    background: rgba(46,107,255,0.08); border: 1px solid rgba(46,107,255,0.2);
+  }
 
   /* Venue map block */
   .venue {
@@ -357,14 +368,14 @@
   (function () {
     const startups = (window.STARTUPS || []).map(s => s.name);
     const sessions = [
-      { time: "10:00", dur: "30 min", type: "Networking", track: "network", title: "Guest Arrivals & VIP Welcome", accent: "#5ee7d0" },
-      { time: "10:30", dur: "20 min", type: "Program", track: "program", title: "Opening Remarks & Welcoming", accent: "#38c6ff" },
-      { time: "11:00", dur: "35 min", type: "Pitch block 01", track: "pitch", title: "Startups Pitching: Part 1", accent: "#2e6bff" },
-      { time: "11:35", dur: "10 min", type: "Networking", track: "network", title: "Coffee Break", accent: "#5ee7d0" },
-      { time: "11:45", dur: "40 min", type: "Pitch block 02", track: "pitch", title: "Startups Pitching: Part 2", accent: "#2e6bff" },
-      { time: "12:25", dur: "50 min", type: "Networking", track: "network", title: "Networking & Judges Deliberation", accent: "#5ee7d0" },
-      { time: "1:15", dur: "90 min", type: "Program", track: "program", title: "MC Closing & Founders Awards", accent: "#38c6ff" },
-      { time: "1:15", dur: "90 min", type: "Networking", track: "network", title: "Lunch & Networking", accent: "#5ee7d0" },
+      { time: "10:00", dur: "30 min", type: "Networking",     track: "network",  title: "Guest Arrivals & VIP Welcome",  accent: "#5ee7d0" },
+      { time: "10:30", dur: "30 min", type: "Program",        track: "program",  title: "Opening Remarks & Welcoming",   accent: "#38c6ff" },
+      { time: "11:00", dur: "35 min", type: "Pitch block 01", track: "pitch",    title: "Startups Pitching: Part 1",     accent: "#2e6bff", startups: ["Capquest", "Palmear", "Pharmedic", "DisruptX", "Neulink", "Toothpick", "Professional.me"] },
+      { time: "11:35", dur: "10 min", type: "Networking",     track: "network",  title: "Coffee Break",                  accent: "#5ee7d0" },
+      { time: "11:45", dur: "40 min", type: "Pitch block 02", track: "pitch",    title: "Startups Pitching: Part 2",     accent: "#2e6bff", startups: ["Akeltech", "Defy", "Terra Grow", "Bellboy", "Smartail", "Digitech Oasis", "Robox"] },
+      { time: "12:25", dur: "50 min", type: "Networking",     track: "network",  title: "Closing Remarks",               accent: "#5ee7d0" },
+      { time: "1:15",  dur: "90 min", type: "Program",        track: "program",  title: "Awards",                        accent: "#38c6ff" },
+      { time: "2:45",  dur: "",       type: "Networking",     track: "network",  title: "Lunch & Networking",            accent: "#5ee7d0" },
     ];
 
     const list = document.getElementById('agenda-list');
@@ -372,12 +383,13 @@
     list.innerHTML = sessions.map((s, i) => `
       <div class="session ${s.track === 'pitch' ? 'is-pitch' : ''}" data-track="${s.track}" data-reveal data-reveal-delay="${(i % 4) + 1}" style="--card-accent:${s.accent}">
         <div class="session__time">
-          ${s.time}<small>${s.dur}</small>
+          ${s.time}${s.dur ? `<small>${s.dur}</small>` : ''}
         </div>
         <div class="session__body">
           <span class="session__type">${s.type}</span>
           <h3 class="session__title">${s.title}</h3>
           ${s.judges ? `<div class="session__judges"><div class="session__judges-label">Judges</div><div class="session__judges-list">${s.judges.map(j => `<span class="session__judge">${j}</span>`).join('')}</div></div>` : ''}
+          ${s.startups ? `<div class="session__startups"><div class="session__startups-label">Pitching</div><div class="session__startups-list">${s.startups.map(n => `<span class="session__startup-name">${n}</span>`).join('')}</div></div>` : ''}
         </div>
         <div class="session__side">
 
